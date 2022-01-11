@@ -79,12 +79,12 @@
     color: #22577A;
      align-items: center;
    }
-    p,h1{
+    p,h1,h2,h4{
     color: #FFFDD0;
     font-size: 22px;
     font-family: 'Noto Serif', sans-serif
   }
-  .box{
+  .box, #box-two{
     position: absolute;
       top: 50%;
       left: 50%;
@@ -97,6 +97,28 @@
                   0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   
   }
+
+  /* second question */
+  #question-container{
+    border-radius: 5px;
+    background-color: #22577A;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh
+  }
+  /* #quiz-header{
+    color: #FFFDD0;
+    font-size: 22px;
+    font-family: 'Monoton', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+   font-size: 200%;
+  
+  } */
+  
 
    
   
