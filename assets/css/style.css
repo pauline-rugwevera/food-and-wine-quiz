@@ -164,7 +164,7 @@
       width: 100%;
       height: 100%;
       cursor: pointer; 
-  /* background-color: var(--hue); */
+  background-color: var(--hue);
  }
   #question-count{
      color: #FFFDD0;
@@ -183,6 +183,22 @@
     margin-right: 40px;
     
   }
+  /* correct and wrong answer change in color */
+.choice-text.correct{
+    --hue: var(--hue-correct);
+  }
+  .choice-text.wrong{
+    --hue: var(--hue-wrong);
+  
+  }
+  :root{
+   --hue-correct: #38A3A5;
+   --hue-wrong: red;
+   --hue-nuetral: #322577;
+  
+  }
+  /* correct and wrong answer change in color end */
+  
   
   
   
