@@ -140,27 +140,31 @@
   } 
   .answer-container{
     display: flex;
-     flex-direction: row; 
-    align-items: center;
+    flex-direction: row; 
+   align-items: center;
+ 
+ width: 90%;
+  height: 72px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   margin-left: 30px; 
+   
+   border: 1px solid #57CC99;
   
-  width: 90%;
-  height: 70px;
-    margin-bottom: 12px;
-    margin-left: 30px; 
-    
-    border: 1px solid #57CC99;
    
   }
   .choice{
     background-color: #57CC99; 
-     padding: 24px 40px;
+     padding: 22px 40px;
+     
+     /* padding: 1.8rem 2.5rem; */
      margin: 0;
      height: 100%;
     
  }
  .choice-text{
-      padding: 24px;
-      /* margin: 0;  */
+      padding: 20px;
+      margin: 0;  
       width: 100%;
       height: 100%;
       cursor: pointer; 
@@ -186,9 +190,12 @@
   /* correct and wrong answer change in color */
 .choice-text.correct{
     --hue: var(--hue-correct);
+  
+  
   }
   .choice-text.wrong{
     --hue: var(--hue-wrong);
+    /* padding-top: 36px; */
   
   }
   :root{
