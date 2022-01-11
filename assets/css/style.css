@@ -79,10 +79,15 @@
     color: #22577A;
      align-items: center;
    }
-    p,h1,h2,h4{
+    #questions,p,h1,h2,h4{
     color: #FFFDD0;
     font-size: 22px;
     font-family: 'Noto Serif', sans-serif
+  }
+  #questions{
+    text-align: center;
+    padding-bottom: 10px;
+  
   }
   .box, #box-two{
     position: absolute;
@@ -106,7 +111,7 @@
     width: 100vw;
     height: 100vh
   }
-  /* #quiz-header{
+   #quiz-header{
     color: #FFFDD0;
     font-size: 22px;
     font-family: 'Monoton', sans-serif;
@@ -117,7 +122,20 @@
     text-transform: uppercase;
    font-size: 200%;
   
-  } */
+  } 
+  .answer-container{
+    display: flex;
+     flex-direction: row; 
+    align-items: center;
+  
+  width: 90%;
+   height: fit-content;
+    margin-bottom: 12px;
+    margin-left: 30px; 
+    
+    border: 1px solid #57CC99;
+   
+  }
   
 
    
