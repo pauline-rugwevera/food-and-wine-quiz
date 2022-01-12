@@ -217,6 +217,18 @@
     width: 100vw;
     height: 100vh;
   }
+  #results-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .green{
+    text-align: center;
+     color: #57CC99;
+     font-size: 100px;
+   
+   }
   
   
   
