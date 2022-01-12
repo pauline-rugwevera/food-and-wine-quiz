@@ -238,10 +238,7 @@ h4 {
 #results-section {
   border-radius: 5px;
   background-color: #22577A;
-
   min-height: 100vh;
-
-
   width: 100vw;
   height: 100vh;
 }
@@ -269,6 +266,7 @@ h4 {
 .results-btn{
   border: 1px solid #57CC99;
   background-color: #57CC99;
+  color: #FFFDD0;
   margin-right: 20px;
   border-radius: 5px;
   font-family: 'Monoton', sans-serif;
@@ -278,3 +276,6 @@ h4 {
   padding: 0  18px ;
  
  }
+ .hide{
+  display: none;
+}
