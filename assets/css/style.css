@@ -266,3 +266,15 @@ h4 {
   font-size: 100px;
 
 }
+.results-btn{
+  border: 1px solid #57CC99;
+  background-color: #57CC99;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-family: 'Monoton', sans-serif;
+  font-size: 18px;
+  letter-spacing: 4px;
+  height: 40px;
+  padding: 0  18px ;
+ 
+ }
