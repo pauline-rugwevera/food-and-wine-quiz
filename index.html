@@ -2,44 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- line below from(https://coderedirect.com/questions/238149/responsive-width-is-too-small-on-phone-but-okay-on-desktop-browser) -->
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <title>The Food and Wine Master Class Quiz</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- line below from(https://coderedirect.com/questions/238149/responsive-width-is-too-small-on-phone-but-okay-on-desktop-browser) -->
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>The Food and Wine Master Class Quiz</title>
 </head>
 
 <body>
-    <section id="welcome" class="hide">
-        <div class="box">
-            <h1 id="welcome-header">The Food and Wine Master Class Quiz</h1>
+  <section id="welcome" class="hide">
+    <div class="box">
+      <h1 id="welcome-header">The Food and Wine Master Class Quiz</h1>
 
-            <hr>
-            <div class="border-one">
-                <p id="first-p">Prove yourself and earn a place in the upcoming Masterchef world</p>
-                <p id="heading-one">Tap to begin when ready</p>
-                <div id="control-btns" class="">
-                    <button id="start-btn" class="btn">START
-                        <i class="fas fa-utensils purple-in-color"></i>
-                        <i class="fas fa-wine-glass-alt purple-in-color"></i>
-                    </button>
-                </div>
-
-            </div>
-
+      <hr>
+      <div class="border-one">
+        <p id="first-p">Prove yourself and earn a place in the upcoming Masterchef world</p>
+        <p id="heading-one">Tap to begin when ready</p>
+        <div id="control-btns" class="">
+          <button id="start-btn" class="btn">START
+            <i class="fas fa-utensils purple-in-color"></i>
+            <i class="fas fa-wine-glass-alt purple-in-color"></i>
+          </button>
         </div>
-    </section>
+
+      </div>
+
+    </div>
+  </section>
 
 
 
 
 
 
-   <!-- Question and answer box -->
-  <section id="question-container" >
+  <!-- Question and answer box -->
+  <section id="question-container" class="hide">
     <div id="box-two">
 
       <h4 id="quiz-header">The Food and Wine Master Class Quiz</h4>
@@ -81,15 +81,29 @@
     </div>
   </section>
 
-    <section class="hide">Third section</section>
+  <section id="results-section">
+    <div id="results-container">
+      <div id="trophy">
+        <i class="fas fa-trophy green"></i>
+      </div>
+      <p id="thank-you">Thank you for completing the quiz</p>
+
+      <p id="your-score">Your Score is: 3/10</p>
+
+      <div id="results-btns">
+        <button id="replay" class="results-btn">Replay</button>
+        <button id="quit" class="results-btn">Quit</button>
+      </div>
+    </div>
+  </section>
 
 
 
 
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js">
-    </script>
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js">
+  </script>
 
-    <script src="assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
