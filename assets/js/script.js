@@ -49,17 +49,43 @@ function startGame(){
    currentQuestion = questionsArr[currentQuestionIndex];
 //    displays the question to the html
    questionItem.innerText = currentQuestion.question;
-//    displays quiz choices to the html
+//    displays question choices to the html
    choices.forEach(function(choice){
     const chosen= choice.dataset.option;
    choice.innerText = currentQuestion[chosen];
 
 
-})
- 
-
+});
+ // get rid of the already displayed question and accept user answer
+ questionsArr.splice[currentQuestionIndex, 1] ;
+ acceptUserAnswer = true;
  }
 
+
+ /**
+  * 
+  */
+choices.forEach(function(choice){
+    choice.addEventListener('click', function(event){
+        if(acceptUserAnswer===false)return
+        // prevents player from answering a question
+        acceptAnswer=false;
+        const clickedOption = event.target;
+        let clickedAnswer = clickedOption.dataset.option;
+        
+        // checks if the answer is correct
+        if(clickedAnswer==currentQuestion.answer){
+            scoreIncrement();
+            clickedOption.classList.add('correct');
+            setTimeout(function(){
+                clickedOption.classList.remove('correct')
+                getNewQuestion()
+            }, 1000) 
+        
+
+    });
+
+})
 
 
 
