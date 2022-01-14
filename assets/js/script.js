@@ -8,7 +8,7 @@ startBtn.addEventListener('click', function(){
     document.getElementById('results-section').classList.add('hide');
     document.getElementById('question-container').classList.remove('hide');
     
-//   startGame();
+  startGame();
 })
 
 // quiz variables
@@ -22,6 +22,17 @@ let currentQuestion={};
 let questios = [];
 
 const maxQuestions = 10;
+/**
+ * A function that initialise variables,and get new questions from the getNewQuestion function
+ */
+function startGame(){
+    questionCount = 0;
+    score = 0;
+    questionsArr = [...foodAndWine];
+//  getNewQuestion()
+ 
+ 
+ }
 
 
 
