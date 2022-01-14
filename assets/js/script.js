@@ -85,6 +85,7 @@ choices.forEach(function(choice){
 
             // checks if the answer is wrong
         }else{
+            // iterate through choices and add correct class
 
             for(let i = 0; i < choices.length; i++){
                     if(choices[i].dataset.option==currentQuestion.answer){
@@ -99,17 +100,17 @@ choices.forEach(function(choice){
              
 
             }
-    //         clickedOption.classList.add('wrong')
+            clickedOption.classList.add('wrong')
         
-    //     setTimeout(function(){
-    //       clickedOption.classList.remove('wrong')
+        setTimeout(function(){
+          clickedOption.classList.remove('wrong')
          
-    //         getNewQuestion()
-    //     }, 1000)
-    // }
+            getNewQuestion()
+        }, 1000)
+    }
         
 
-    // });
+    });
 
 })
 
