@@ -36,17 +36,38 @@ function startGame(){
  
  }
  /**
-  * 
+  * displays randomly generated questions by getting them from questionsArr
+  *  and displays them to the html, and increase question count
   */
  function getNewQuestion(){
     questionCount++;
     questionCountText.innerText = `Question: ${questionCount}`;
+     // Creates a random question from the questionsArr array
    const currentQuestionIndex = Math.floor(Math.random()*questionsArr.length);
+//    add the random question index to the current question
    currentQuestion = questionsArr[currentQuestionIndex];
+//    displays the question to the html
    questionItem.innerText = currentQuestion.question;
  
 
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  startGame();
 
 
