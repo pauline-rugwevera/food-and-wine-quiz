@@ -81,9 +81,35 @@ choices.forEach(function(choice){
                 clickedOption.classList.remove('correct')
                 getNewQuestion()
             }, 1000) 
+
+
+            // checks if the answer is wrong
+        }else{
+
+            for(let i = 0; i < choices.length; i++){
+                    if(choices[i].dataset.option==currentQuestion.answer){
+                    choices[i].classList.add('correct')
+                    setTimeout(function(){
+                        choices[i].classList.remove('correct')
+                        // getNewQuestion()
+                    }, 1000)
+                 
+                }
+
+             
+
+            }
+    //         clickedOption.classList.add('wrong')
+        
+    //     setTimeout(function(){
+    //       clickedOption.classList.remove('wrong')
+         
+    //         getNewQuestion()
+    //     }, 1000)
+    // }
         
 
-    });
+    // });
 
 })
 
