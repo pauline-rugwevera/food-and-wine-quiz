@@ -10,7 +10,7 @@ startBtn.addEventListener('click', function(){
   startGame();
 })
 // Questions screen
-let questionCounterText= document.getElementById('question-count');
+let questionCountText= document.getElementById('question-count');
 let questionItem = document.getElementById('questions');
 
 // quiz variables
@@ -31,6 +31,7 @@ function startGame(){
     questionCount = 0;
     score = 0;
     questionsArr = [...foodAndWine];
+ 
  getNewQuestion()
  
  }
@@ -38,12 +39,15 @@ function startGame(){
   * 
   */
  function getNewQuestion(){
-//     questionCount++;
-//     questionCounterText.innerText = `Question: ${questionCount}`;
-//    const currentQstnIndex = Math.floor(Math.random()*questionsArr.length);
+    questionCount++;
+    questionCountText.innerText = `Question: ${questionCount}`;
+   const currentQuestionIndex = Math.floor(Math.random()*questionsArr.length);
+   currentQuestion = questionsArr[currentQuestionIndex];
+   questionItem.innerText = currentQuestion.question;
  
 
  }
+ startGame();
 
 
 
