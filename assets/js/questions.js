@@ -1,4 +1,5 @@
-const foodandWine = [
+
+let foodAndWine = [
     {
         question : ' What beans are used to make baked beans?',
         a : 'Borlotti beans',
