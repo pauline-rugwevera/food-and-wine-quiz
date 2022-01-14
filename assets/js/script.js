@@ -13,6 +13,7 @@ startBtn.addEventListener('click', function(){
 let questionCountText= document.getElementById('question-count');
 let questionItem = document.getElementById('questions');
 let choices = Array.from (document.querySelectorAll(".choice-text"));
+let scoreText =document.getElementById('score');
 
 // quiz variables
 
@@ -63,7 +64,9 @@ function startGame(){
 
 
  /**
-  * 
+  * Checks if the answer is correct and add correct class to it,and increment score for
+  * every correct choice. Add wrong class for every wrong choice then add correct class 
+  * to the correct answer, a small delay happens before new question is displayed
   */
 choices.forEach(function(choice){
     choice.addEventListener('click', function(event){
@@ -97,8 +100,6 @@ choices.forEach(function(choice){
                  
                 }
 
-             
-
             }
             clickedOption.classList.add('wrong')
         
@@ -112,7 +113,12 @@ choices.forEach(function(choice){
 
     });
 
-})
+});
+// increases score and displays it each time correct answer is picked
+function scoreIncrement(){
+    score++;
+    scoreText.innerText = `Score : ${score}`;
+}
 
 
 
