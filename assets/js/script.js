@@ -1,11 +1,12 @@
 // start button screen 
 
 let startBtn = document.getElementById('start-btn');
+let startSection =  document.getElementById('start') 
 
 startBtn.addEventListener('click', function(){
-    document.getElementById('start') .classList.add('hide');
-    document.getElementById('results-section').classList.add('hide');
-    document.getElementById('question-container').classList.remove('hide');
+   startSection.classList.add('hide');
+    boxThree.classList.add('hide');
+   questionContainer.classList.remove('hide');
     
   startGame();
 })
@@ -16,7 +17,8 @@ let choices = Array.from (document.querySelectorAll(".choice-text"));
 let scoreText =document.getElementById('score');
 let questionContainer = document.getElementById('question-container');
 // Results box
-let resultsContainer = document.getElementById('results-container');
+let boxThree = document.getElementById('box-three')
+
 let yourScore = document.getElementById('your-score');
 
 // quiz variables
@@ -29,7 +31,7 @@ let questionsArr = [];
 let currentQuestion={};
 let questios = [];
 
-const maxQuestions = 10;
+const maxQuestions = 3;
 /**
  * A function that initialise variables,and get new questions from the getNewQuestion function
  */
@@ -66,7 +68,14 @@ function startGame(){
  acceptUserAnswer = true;
 
 
+ if (questionsArr.length === 0 || questionCount >= maxQuestions) {
+    //go to the end page
+    displayResults();
+//   startGame();
+  
 
+  
+  }
 
  }
 
@@ -133,11 +142,11 @@ function scoreIncrement(){
  * Hides the start and question screen at the end of quiz to display quiz score
  */
 function displayResults(){
-    welcome.classList.add('hide');
-    resultsContainer.classList.remove('hide');
-    questionContainer.classList.add('hide');
+    startSection .classList.add('hide');
    
-   
+   boxThree.classList.remove('hide');
+   questionContainer.classList.add('hide');
+
     if( score < 3){
         yourScore.innerText = `You scored:` + score ;
       
