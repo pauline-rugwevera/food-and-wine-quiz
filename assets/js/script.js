@@ -20,6 +20,7 @@ let questionContainer = document.getElementById('question-container');
 let boxThree = document.getElementById('box-three')
 
 let yourScore = document.getElementById('your-score');
+let replay = document.getElementById('replay');
 
 // quiz variables
 
@@ -161,11 +162,17 @@ function displayResults(){
 }
 
 
-
-
-
-
-
+replay.addEventListener('click', function(){
+   
+   start.classList.add('hide');
+   boxThree.classList.add('hide');
+    questionContainer.classList.remove('hide');
+    scoreText.innerText = `Score : ${0}`;
+  
+  startGame();
+  
+    
+});
 
 
 
