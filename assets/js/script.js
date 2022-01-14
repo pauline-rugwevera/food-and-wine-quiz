@@ -14,6 +14,10 @@ let questionCountText= document.getElementById('question-count');
 let questionItem = document.getElementById('questions');
 let choices = Array.from (document.querySelectorAll(".choice-text"));
 let scoreText =document.getElementById('score');
+let questionContainer = document.getElementById('question-container');
+// Results box
+let resultsContainer = document.getElementById('results-container');
+let yourScore = document.getElementById('your-score');
 
 // quiz variables
 
@@ -60,6 +64,10 @@ function startGame(){
  // get rid of the already displayed question and accept user answer
  questionsArr.splice[currentQuestionIndex, 1] ;
  acceptUserAnswer = true;
+
+
+
+
  }
 
 
@@ -118,6 +126,29 @@ choices.forEach(function(choice){
 function scoreIncrement(){
     score++;
     scoreText.innerText = `Score : ${score}`;
+}
+
+// results box
+/**
+ * Hides the start and question screen at the end of quiz to display quiz score
+ */
+function displayResults(){
+    welcome.classList.add('hide');
+    resultsContainer.classList.remove('hide');
+    questionContainer.classList.add('hide');
+   
+   
+    if( score < 3){
+        yourScore.innerText = `You scored:` + score ;
+      
+       
+    }else{
+        yourScore.innerText = `Your scored :`+ score +   `Congratulations !You have earned your place!`;
+    
+
+    }
+   
+
 }
 
 
