@@ -12,6 +12,7 @@ startBtn.addEventListener('click', function(){
 // Questions screen
 let questionCountText= document.getElementById('question-count');
 let questionItem = document.getElementById('questions');
+let choices = Array.from (document.querySelectorAll(".choice-text"));
 
 // quiz variables
 
@@ -48,6 +49,13 @@ function startGame(){
    currentQuestion = questionsArr[currentQuestionIndex];
 //    displays the question to the html
    questionItem.innerText = currentQuestion.question;
+//    displays quiz choices to the html
+   choices.forEach(function(choice){
+    const chosen= choice.dataset.option;
+   choice.innerText = currentQuestion[chosen];
+
+
+})
  
 
  }
