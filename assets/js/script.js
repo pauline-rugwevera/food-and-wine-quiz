@@ -10,6 +10,7 @@ startBtn.addEventListener('click', function(){
     
   startGame();
 })
+
 // Questions screen
 let questionCountText= document.getElementById('question-count');
 let questionItem = document.getElementById('questions');
@@ -150,7 +151,8 @@ function displayResults(){
    questionContainer.classList.add('hide');
 
     if( score < 3){
-        yourScore.innerText = `You scored:` + score ;
+        
+        yourScore.innerText = `You scored:  ${score} / ${maxQuestions}` ;
       
        
     }else{
@@ -164,26 +166,26 @@ function displayResults(){
 
 
 replay.addEventListener('click', function(){
-   
    start.classList.add('hide');
    boxThree.classList.add('hide');
     questionContainer.classList.remove('hide');
     scoreText.innerText = `Score : ${0}`;
-  
   startGame();
   
     
 });
 
 
+
+
+
+
 quit.addEventListener('click', function(){
     start.classList.remove('hide');
    boxThree.classList.add('hide');
     questionContainer.classList.add('hide');
-   
 
     scoreText.innerText = `Score : ${0}`;
-    
 
     startGame();
 
