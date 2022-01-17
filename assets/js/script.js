@@ -148,7 +148,8 @@ function scoreIncrement(){
 function displayResults(){
     startSection .classList.add('hide');
    
-   boxThree.classList.remove('hide');
+  resultsSection.classList.remove('hide');
+  boxThree.classList.remove('hide');
    questionContainer.classList.add('hide');
 
     if( score < 3){
@@ -168,7 +169,9 @@ function displayResults(){
 
 replay.addEventListener('click', function(){
    start.classList.add('hide');
-   boxThree.classList.add('hide');
+
+ resultsSection.classList.add('hide');
+
     questionContainer.classList.remove('hide');
     scoreText.innerText = `Score : ${0}`;
   startGame();
@@ -183,7 +186,9 @@ replay.addEventListener('click', function(){
 
 quit.addEventListener('click', function(){
     start.classList.remove('hide');
-   boxThree.classList.add('hide');
+
+  resultsSection.classList.add('hide');
+ 
     questionContainer.classList.add('hide');
 
     scoreText.innerText = `Score : ${0}`;
