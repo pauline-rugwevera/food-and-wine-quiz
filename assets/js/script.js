@@ -23,6 +23,7 @@ let boxThree = document.getElementById('box-three')
 let yourScore = document.getElementById('your-score');
 let replay = document.getElementById('replay');
 let quit = document.getElementById('quit');
+let message = document.getElementById('message');
 
 // quiz variables
 
@@ -153,11 +154,11 @@ function displayResults(){
     if( score < 3){
         
         yourScore.innerText = `You scored:  ${score} / ${maxQuestions}` ;
-      
+        message.innerText = `Unfortunately you did not qualify to the Masterchef World`;
        
     }else{
-        yourScore.innerText = `Your scored :`+ score +   `Congratulations !You have earned your place!`;
-    
+        yourScore.innerText = `You scored:  ${score} / ${maxQuestions}` ;
+        message.innerText = `Congratulations! You have earned your spot at the Masterchef World`
 
     }
    
