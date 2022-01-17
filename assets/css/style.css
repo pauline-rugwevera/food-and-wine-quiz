@@ -339,8 +339,8 @@ h4 {
   #box-two{
     width: 80%;
 
-  
   }
+  
   .answer-container{
     margin-left: 15px;
     text-align: center;
@@ -352,13 +352,16 @@ h4 {
   #box-two{
     width: 85%;
   }
-  
+
  
 }
 @media only screen and (max-width:352px){
   #box-two{
     width: 90%;
-    height: fit-content;
+
+  }
+  .choice-text{
+    padding: 3px;
   }
   
 }
