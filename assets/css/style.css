@@ -326,6 +326,18 @@ h4 {
   }
   
 }
+@media only screen and (max-width:558px){
+  #box-two{
+    width: 80%;
+
+  
+  }
+  .answer-container{
+    margin-left: 15px;
+    text-align: center;
+  }
+ 
+}
 
    
 
