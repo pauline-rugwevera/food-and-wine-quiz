@@ -121,7 +121,8 @@ choices.forEach(function(choice){
                  
                 }
 
-            }
+            } 
+            // add wrong class
             clickedOption.classList.add('wrong')
         
         setTimeout(function(){
@@ -166,7 +167,11 @@ function displayResults(){
 
 }
 
-
+/**
+ * Function that allows quiz replay,by hiding results section and question container as well
+ * as reseting the score to 0
+ 
+ */
 replay.addEventListener('click', function(){
    start.classList.add('hide');
 
@@ -183,7 +188,10 @@ replay.addEventListener('click', function(){
 
 
 
-
+/**
+ * Function to quit the quiz, by displaying the main page and hiding results and questions page
+ * reseting all variables.
+ */
 quit.addEventListener('click', function(){
     start.classList.remove('hide');
 
