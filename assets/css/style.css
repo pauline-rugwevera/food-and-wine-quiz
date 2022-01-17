@@ -319,9 +319,13 @@ h4 {
   }
 
 }
-
-
+/* question container */
+@media only screen and (max-width:1150px){
+  #box-two{
+    height: fit-content;
+  }
   
-   
+}
+
    
 
