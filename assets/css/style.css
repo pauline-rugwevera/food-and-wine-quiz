@@ -280,3 +280,36 @@ h4 {
  .hide{
   display: none;
 }
+
+/* media queries */
+@media only screen and (max-width:530px){
+  .box{
+
+ height: fit-content;
+ 
+
+  }
+  #welcome-header{
+    padding: 4px;
+  }
+  #control-btns{
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  #first-p{
+    padding: 5px;
+  }
+  #heading-one{
+   text-align: center;
+}
+  .btn{
+  width: 250px;
+  }
+  
+}
+
+
+  
+   
+   
+
