@@ -338,6 +338,15 @@ h4 {
   }
  
 }
+@media only screen and (max-width:398px){
+  #box-two{
+    width: 85%;
+
+  
+  }
+  
+ 
+}
 
    
 
