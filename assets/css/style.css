@@ -325,7 +325,16 @@ h4 {
     height: fit-content;
   }
   
+  
 }
+@media only screen and (max-width:800px){
+  .answer-container{
+    height: 80px;
+  }
+  
+  
+}
+
 @media only screen and (max-width:558px){
   #box-two{
     width: 80%;
@@ -335,6 +344,7 @@ h4 {
   .answer-container{
     margin-left: 15px;
     text-align: center;
+    
   }
  
 }
