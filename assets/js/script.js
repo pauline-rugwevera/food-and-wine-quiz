@@ -18,8 +18,8 @@ let choices = Array.from (document.querySelectorAll(".choice-text"));
 let scoreText =document.getElementById('score');
 let questionContainer = document.getElementById('question-container');
 // Results box
-let boxThree = document.getElementById('box-three')
-
+let boxThree = document.getElementById('box-three');
+let resultsSection = document.getElementById('results-section');
 let yourScore = document.getElementById('your-score');
 let replay = document.getElementById('replay');
 let quit = document.getElementById('quit');
