@@ -351,6 +351,14 @@ h4 {
 @media only screen and (max-width:398px){
   #box-two{
     width: 85%;
+   
+  }
+  .answer-container{
+    height:72px;
+
+  }
+  .choice-text{
+    padding: 7px;
   }
 
  
