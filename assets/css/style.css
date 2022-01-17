@@ -341,11 +341,16 @@ h4 {
 @media only screen and (max-width:398px){
   #box-two{
     width: 85%;
-
-  
   }
   
  
+}
+@media only screen and (max-width:352px){
+  #box-two{
+    width: 90%;
+    height: fit-content;
+  }
+  
 }
 
    
