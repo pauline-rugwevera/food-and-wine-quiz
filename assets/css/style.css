@@ -395,6 +395,65 @@ h4 {
   
 }
 
+@media only screen and (max-width:632px){
+  #box-three{
+    height: 65vh;
+  }
+  #thank-you{
+    text-align: center;
+  }
+  #your-score{
+    text-align: center;
+  }
+  #message{
+    text-align: center;
+  }
+  
+  
+}
+
+
+   
+
+@media only screen and (max-width:632px){
+  #box-three{
+    height: 65vh;
+  }
+  #thank-you{
+    text-align: center;
+  }
+  #your-score{
+    text-align: center;
+  }
+  #message{
+    text-align: center;
+  }
+  
+  
+}
+
+@media only screen and (max-width:520px){
+  
+  #results-btns{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+    
+  }
+  #message{
+    padding: 3px;
+  }
+  #quit{
+  margin-top: 10px;
+  }
+ 
+}
+
+
+   
+   
+
 
    
 
