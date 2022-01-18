@@ -449,6 +449,13 @@ h4 {
   }
  
 }
+@media only screen and (max-width:380px){
+#box-three{
+  height: 70vh;
+}
+}
+  
+ 
 
 
    
