@@ -1,7 +1,7 @@
 // start button screen 
 
 let startBtn = document.getElementById('start-btn');
-let startSection =  document.getElementById('start') 
+let startSection =  document.getElementById('start');
 
 startBtn.addEventListener('click', function(){
    startSection.classList.add('hide');
@@ -9,7 +9,7 @@ startBtn.addEventListener('click', function(){
    questionContainer.classList.remove('hide');
     
   startGame();
-})
+});
 
 // Questions screen
 let questionCountText= document.getElementById('question-count');
@@ -33,8 +33,6 @@ let acceptUserAnswer = false;
 let questionCount = 0;
 let questionsArr = [];
 let currentQuestion={};
-let questios = [];
-
 const maxQuestions = 10;
 /**
  * A function that initialise variables,and get new questions from the getNewQuestion function
@@ -44,7 +42,7 @@ function startGame(){
     score = 0;
     questionsArr = [...foodAndWine];
  
- getNewQuestion()
+ getNewQuestion();
  
  }
  /**
@@ -91,7 +89,7 @@ function startGame(){
   */
 choices.forEach(function(choice){
     choice.addEventListener('click', function(event){
-        if(acceptUserAnswer===false)return
+        if(acceptUserAnswer===false)return;
         // prevents player from answering a question
         acceptAnswer=false;
         const clickedOption = event.target;
@@ -102,9 +100,9 @@ choices.forEach(function(choice){
             scoreIncrement();
             clickedOption.classList.add('correct');
             setTimeout(function(){
-                clickedOption.classList.remove('correct')
-                getNewQuestion()
-            }, 1000) 
+                clickedOption.classList.remove('correct');
+                getNewQuestion();
+            }, 1000) ;
 
 
             // checks if the answer is wrong
@@ -113,23 +111,23 @@ choices.forEach(function(choice){
 
             for(let i = 0; i < choices.length; i++){
                     if(choices[i].dataset.option==currentQuestion.answer){
-                    choices[i].classList.add('correct')
+                    choices[i].classList.add('correct');
                     setTimeout(function(){
-                        choices[i].classList.remove('correct')
+                        choices[i].classList.remove('correct');
                         // getNewQuestion()
-                    }, 1000)
+                    }, 1000);
                  
                 }
 
             } 
             // add wrong class
-            clickedOption.classList.add('wrong')
+            clickedOption.classList.add('wrong');
         
         setTimeout(function(){
-          clickedOption.classList.remove('wrong')
+          clickedOption.classList.remove('wrong');
          
-            getNewQuestion()
-        }, 1000)
+            getNewQuestion();
+        }, 1000);
     }
         
 
@@ -160,7 +158,7 @@ function displayResults(){
        
     }else{
         yourScore.innerText = `You scored:  ${score} / ${maxQuestions}` ;
-        message.innerText = `Congratulations! You have earned your spot at the Masterchef World`
+        message.innerText = `Congratulations! You have earned your spot at the Masterchef World`;
 
     }
    
@@ -173,7 +171,7 @@ function displayResults(){
  
  */
 replay.addEventListener('click', function(){
-   start.classList.add('hide');
+   startSection.classList.add('hide');
 
  resultsSection.classList.add('hide');
 
@@ -193,7 +191,7 @@ replay.addEventListener('click', function(){
  * reseting all variables.
  */
 quit.addEventListener('click', function(){
-    start.classList.remove('hide');
+    startSection.classList.remove('hide');
 
   resultsSection.classList.add('hide');
  
@@ -203,7 +201,7 @@ quit.addEventListener('click', function(){
 
     startGame();
 
-})
+});
 
 
 
