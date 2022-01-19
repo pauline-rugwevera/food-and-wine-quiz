@@ -35,7 +35,7 @@ let questionsArr = [];
 let currentQuestion={};
 let questios = [];
 
-const maxQuestions = 3;
+const maxQuestions = 10;
 /**
  * A function that initialise variables,and get new questions from the getNewQuestion function
  */
