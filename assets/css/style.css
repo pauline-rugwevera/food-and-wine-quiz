@@ -12,7 +12,6 @@
 body {
   font-family: 'Noto Serif', sans-serif;
   font-size: 14px;
-  /* height: 100vh; */
   width: 100vw;
 
 }
@@ -20,7 +19,6 @@ body {
 #start {
   background-color: #22577A;
   width: 100vw;
-
   overflow: hidden;
   height: 100vh;
 
@@ -120,15 +118,14 @@ h4 {
 
 }
 
-/* second question */
+
 #question-container {
   border-radius: 5px;
   background-color: #22577A;
-  /* min-height: 100vh; */
   width: 100vw;
   height: 100vh;
   overflow: hidden;
- 
+
 }
 
 #box-two {
@@ -136,9 +133,7 @@ h4 {
   top: 50%;
   left: 50%;
   height: 550px;
-
   width: 70%;
-
   box-shadow: 1px 5px 5px 1px #57CC99;
   transform: translate(-50%, -50%);
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -169,17 +164,13 @@ h4 {
   margin-bottom: 10px;
   margin-top: 10px;
   margin-left: 30px;
-
   border: 1px solid #57CC99;
-
 
 }
 
 .choice {
   background-color: #57CC99;
   padding: 22px 40px;
-
-  /* padding: 1.8rem 2.5rem; */
   margin: 0;
   height: 100%;
 
@@ -217,25 +208,22 @@ h4 {
 .choice-text.correct {
   --hue: var(--hue-correct);
 
-
 }
 
 .choice-text.wrong {
   --hue: var(--hue-wrong);
-  /* padding-top: 36px; */
 
 }
 
 :root {
   --hue-correct: #38A3A5;
   --hue-wrong: red;
-  --hue-nuetral: #322577;
 
 }
 
 /* correct and wrong answer change in color end */
 
-/* results section */
+
 #results-section {
   border-radius: 5px;
   background-color: #22577A;
@@ -264,7 +252,8 @@ h4 {
   font-size: 100px;
 
 }
-.results-btn{
+
+.results-btn {
   border: 1px solid #57CC99;
   background-color: #57CC99;
   color: #FFFDD0;
@@ -274,193 +263,208 @@ h4 {
   font-size: 18px;
   letter-spacing: 4px;
   height: 40px;
-  padding: 0  18px ;
- 
- }
- #message{
-   padding: 6px;
-   text-align: center;
- }
- .hide{
+  padding: 0 18px;
+
+}
+
+#message {
+  padding: 6px;
+  text-align: center;
+}
+
+.hide {
   display: none;
 }
 
 /* media queries */
-@media only screen and (max-width:530px){
-  .box{
-
- height: fit-content;
- 
+@media only screen and (max-width:530px) {
+  .box {
+    height: fit-content;
 
   }
-  #welcome-header{
+
+  #welcome-header {
     padding: 4px;
   }
-  #control-btns{
+
+  #control-btns {
     margin-top: 5px;
     margin-bottom: 10px;
   }
-  #first-p{
+
+  #first-p {
     padding: 5px;
   }
-  #heading-one{
-   text-align: center;
-}
-  .btn{
-  width: 250px;
+
+  #heading-one {
+    text-align: center;
   }
-  
+
+  .btn {
+    width: 250px;
+  }
+
 }
-@media only screen and (max-width:454px){
-  .btn{
+
+@media only screen and (max-width:454px) {
+  .btn {
     width: 200px;
-  
+
   }
 }
-@media only screen and (max-width:370px){
-  .btn{
+
+@media only screen and (max-width:370px) {
+  .btn {
     width: 200px;
   }
 
 }
+
 /* question container */
-@media only screen and (max-width:1150px){
-  #box-two{
+@media only screen and (max-width:1150px) {
+  #box-two {
     height: fit-content;
   }
-  
-  
-}
-@media only screen and (max-width:800px){
-  .answer-container{
-    height: 80px;
-  }
-  
-  
+
 }
 
-@media only screen and (max-width:558px){
-  #box-two{
+@media only screen and (max-width:800px) {
+  .answer-container {
+    height: 80px;
+  }
+
+}
+
+@media only screen and (max-width:558px) {
+  #box-two {
     width: 80%;
 
   }
-  
-  .answer-container{
+
+  .answer-container {
     margin-left: 15px;
     text-align: center;
-    
-  }
- 
-}
-@media only screen and (max-width:398px){
-  #box-two{
-    width: 85%;
-   
-  }
-  .answer-container{
-    height:72px;
 
   }
-  .choice-text{
+
+}
+
+@media only screen and (max-width:398px) {
+  #box-two {
+    width: 85%;
+
+  }
+
+  .answer-container {
+    height: 72px;
+
+  }
+
+  .choice-text {
     padding: 7px;
   }
 
- 
+
 }
-@media only screen and (max-width:352px){
-  #box-two{
+
+@media only screen and (max-width:352px) {
+  #box-two {
     width: 90%;
 
   }
-  .choice-text{
+
+  .choice-text {
     padding: 3px;
   }
-  
+
 }
+
 /* results box */
-@media only screen and (max-width:632px){
-  #box-three{
+@media only screen and (max-width:632px) {
+  #box-three {
     height: 65vh;
   }
-  #thank-you{
+
+  #thank-you {
     text-align: center;
   }
-  #your-score{
+
+  #your-score {
     text-align: center;
   }
-  #message{
+
+  #message {
     text-align: center;
   }
-  
-  
+
+
 }
 
-@media only screen and (max-width:632px){
-  #box-three{
+@media only screen and (max-width:632px) {
+  #box-three {
     height: 65vh;
   }
-  #thank-you{
+
+  #thank-you {
     text-align: center;
   }
-  #your-score{
+
+  #your-score {
     text-align: center;
   }
-  #message{
+
+  #message {
     text-align: center;
   }
-  
-  
+
+
 }
 
 
-   
-
-@media only screen and (max-width:632px){
-  #box-three{
+@media only screen and (max-width:632px) {
+  #box-three {
     height: 65vh;
   }
-  #thank-you{
+
+  #thank-you {
     text-align: center;
   }
-  #your-score{
+
+  #your-score {
     text-align: center;
   }
-  #message{
+
+  #message {
     text-align: center;
   }
-  
-  
+
+
 }
 
-@media only screen and (max-width:520px){
-  
-  #results-btns{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   flex-direction: column;
-    
+@media only screen and (max-width:520px) {
+
+  #results-btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
   }
-  #message{
+
+  #message {
     padding: 3px;
   }
-  #quit{
-  margin-top: 10px;
+
+  #quit {
+    margin-top: 10px;
   }
- 
+
 }
-@media only screen and (max-width:380px){
-#box-three{
-  height: 70vh;
-}
-}
+
+@media only screen and (max-width:380px) {
+  #box-three {
+    height: 70vh;
+  }
+
   
- 
-
-
-   
-   
-
-
-   
-
+}
