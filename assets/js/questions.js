@@ -84,10 +84,10 @@ let foodAndWine = [
     },
     {
         question: ' What ingredients are in the dish Cullen Skink?',
-        a : 'fish and potatoes',
-        b :'haddock and potatoes',
-        c: 'Baramundi and potatoes',
-        d: 'Salmon and potatoes',
+        a : 'fish & potatoes',
+        b :'haddock & potatoes',
+        c: 'Baramundi & potatoes',
+        d: 'Salmon & potatoes',
        answer : 'b'
 
     },
@@ -101,12 +101,12 @@ let foodAndWine = [
 
     },
     {
-        question: ' A Magnum holds two standard bottles of champagne, a Réhoboam holds six, but how many bottles of champagne in a Nebuchadnezzar?',
-        a : '20',
-        b :'0',
-        c: '2',
-        d: '25',
-       answer : 'a'
+        question:  'What is the most popular Asian dish',
+        a : 'Fried rice',
+        b :'Sweet & sour pork',
+        c: 'Peking duck',
+        d: 'Teriyaki',
+       answer : 'c'
 
     },
     
@@ -174,11 +174,11 @@ let foodAndWine = [
 
     },
     {
-        question: 'Retsina is a wine from which country?',
-        a:'Germany',
-        b :'France',
-        c: 'Greece',
-        d: 'Egypt',
+        question: ' Shirley, Ailsa Craig and Mr Stripey are all types of what?',
+        a:'Zuccini',
+        b :'Apple',
+        c: 'Tomato',
+        d: 'Pumpkin',
        answer : 'c'
 
     },
@@ -192,12 +192,12 @@ let foodAndWine = [
 
     },
     {
-        question: 'Hawke Bay is the oldest wine region in which country?',
-        a:'UAE',
-        b :'Singapore',
-        c: 'New Zealand',
-        d: 'Morocco',
-       answer : 'c'
+        question: ' What is a spoot?',
+        a:'A type of clam',
+        b :'Potato',
+        c: 'Kitchen Mixer',
+        d: 'Masher',
+       answer : 'a'
 
     },
     {
@@ -246,12 +246,12 @@ let foodAndWine = [
 
     },
     {
-        question: 'Which of the following countries produces cocoa',
-        a:'Egypt',
-        b: 'South Africa',
-        c: 'Cote Divoire',
-        d: 'Germany',
-       answer : 'c'
+        question: '..is one of the ingredients of Worcestershire Sauce?',
+        a:'Tamarind',
+        b: 'Chinese 5 spice',
+        c: 'Soy sauce',
+        d: 'Tomato',
+       answer : 'd'
 
     },
     {
@@ -269,8 +269,34 @@ let foodAndWine = [
         b: 'South Africa',
         c: 'Lesotho',
         d: 'Zambia',
-       answer : 'c'
+       answer : 'a'
 
     },
+    {
+        question: 'Jollof rice is national dish of which country',
+        a:'Ghana',
+        b: 'South Africa',
+        c: 'Egypt',
+        d: 'Nigeria',
+       answer : 'd'
+
+    },
+    {
+        question: 'Marzipan is derived from?',
+        a:'Almond',
+        b: 'Round Nut',
+        c: 'Pecans',
+        d: 'Brazillian nut',
+       answer : 'a'
+
+    },
+    {
+        question: 'Main ingredient for pesto?',
+        a: 'Olive oil',
+        b: 'Parsely',
+        c: 'Basil',
+        d: 'Pine nuts',
+        answer : 'c'
+    }
 
 ]
