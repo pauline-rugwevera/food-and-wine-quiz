@@ -3,7 +3,7 @@ Food and Wine Masterclass quiz is a Javascript web application aimed at all food
 
 ![Header Image](assets/images/Screenshot_110.png)
 # UX
-# Site Owner Goals
+## Site Owner Goals
 - Ensure  users what to do when they arrive on the site
 - Ensure a visually appealing site
 - An easy to navigate site
@@ -17,6 +17,14 @@ Food and Wine Masterclass quiz is a Javascript web application aimed at all food
 - Users can enter their usernames
 - Users can track the time remaining before completing the quiz
 - Users can be able to share their results with friends and loved ones on social media
+## User Stories
+### New user
+- As a First Time user, I want to easily understand the purpose of the site
+- As a First Time user, I want to easily navigate the site
+- As a First Time user, I want to easily track my score
+- As a First Time user, I want to easily quit the game once done
+- As a First Time user, I want to easily replay the game once done
+
 
 
 
