@@ -77,7 +77,8 @@ body {
 }
 
 #start-btn {
-  color: #FFFDD0;
+  /* color: #FFFDD0; */
+  color: #102637;
   font-size: 22px;
   font-family: 'Monoton', sans-serif;
   text-transform: uppercase;
@@ -170,6 +171,7 @@ h4 {
 
 .choice {
   background-color: #57CC99;
+  color: #102637;
   padding: 22px 40px;
   margin: 0;
   height: 100%;
@@ -256,7 +258,7 @@ h4 {
 .results-btn {
   border: 1px solid #57CC99;
   background-color: #57CC99;
-  color: #FFFDD0;
+  color: #102637;
   margin-right: 20px;
   border-radius: 5px;
   font-family: 'Monoton', sans-serif;
