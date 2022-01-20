@@ -218,8 +218,9 @@ h4 {
 }
 
 :root {
-  --hue-correct: #38A3A5;
-  --hue-wrong: red;
+  /* --hue-correct: #38A3A5; */
+  --hue-correct: #57cc99;
+  --hue-wrong: #DA1212;
 
 }
 
