@@ -8,6 +8,13 @@ Food and Wine Masterclass quiz is a Javascript web application aimed at all food
 - Ensure a visually appealing site
 - An easy to navigate site
 - Ensure users can track their perfomace throughout
+## User Goals
+- Easy Navigation
+- Visual Appealing, well structured site
+- An engaging application
+- Easily track perfomance throughout to the end
+
+
 
 
 
