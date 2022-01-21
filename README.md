@@ -82,7 +82,7 @@ The Replay button allows the user to interact with site, allowing them to retake
 
 The Quit button is another way users will interact with this site. This page allows them to exit the quiz. When they click it, it will take them to the landing page.
 
-![results page](assets/images/Screenshot_114.png)
+![results page](assets/images/Screenshot_125.png)
 
 
 
