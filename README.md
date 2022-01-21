@@ -67,7 +67,22 @@ If wrong answer is picked, a red color flashes on the picked choice immediately 
 
 
 
-The question increment each time user is presented with a new question, and user cannot be given a new question unless they first choose an answer for the already presented one. The score increments each time the user choose a correct answer
+The question increment each time user is presented with a new question, and user cannot be given a new question unless they first choose an answer for the already presented one. The score increments each time the user choose a correct answer.
+
+# Results page
+This is the last section of the quiz that is shown to the user once they complete the quiz. It shows four main things, 
+* The score
+* The feedback information
+* The Replay button
+* The Quit button
+
+The score shows the final score the user get which has been incrementing along per each correct answer they chose. The feedback text shows the user if they had qualified to the TasteMaster World based on their final score. If they score 6 out of 10, they earn a place at the TasteMaster World, however anthing below that it means they would not qualify.
+
+The Replay button allows the user to interact with site, allowing them to retake the quiz. Upon clicking this button, this will take them to the question screen page where they will be presented with the first question.
+
+The Quit button is another way users will interact with this site. This page allows them to exit the quiz. When they click it, it will take them to the landing page.
+
+![results page](assets/images/Screenshot_114.png)
 
 
 
