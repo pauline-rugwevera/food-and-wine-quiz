@@ -23,6 +23,7 @@ let resultsSection = document.getElementById('results-section');
 let yourScore = document.getElementById('your-score');
 let replay = document.getElementById('replay');
 let quit = document.getElementById('quit');
+let resultsHeader = document.getElementById('results-header')
 let message = document.getElementById('message');
 
 // quiz variables
@@ -149,10 +150,12 @@ function displayResults() {
     if (score < 6) {
 
         yourScore.innerText = `You scored:  ${score} / ${maxQuestions}`;
-        message.innerText = `Unfortunately you did not qualify to the Taste Master world`;
+        resultsHeader.innerText = `You Lost`;
+        message.innerText = ` You did not qualify to the Taste Master world`;
 
     } else {
         yourScore.innerText = `You scored:  ${score} / ${maxQuestions}`;
+        resultsHeader.innerText = `You Win`;
         message.innerText = `Congratulations! You have earned your spot at the Taste Master World`;
 
     }
