@@ -149,11 +149,11 @@ function displayResults() {
     if (score < 6) {
 
         yourScore.innerText = `You scored:  ${score} / ${maxQuestions}`;
-        message.innerText = `Unfortunately you did not qualify to the Masterchef World`;
+        message.innerText = `Unfortunately you did not qualify to the Taste Master world`;
 
     } else {
         yourScore.innerText = `You scored:  ${score} / ${maxQuestions}`;
-        message.innerText = `Congratulations! You have earned your spot at the Masterchef World`;
+        message.innerText = `Congratulations! You have earned your spot at the Taste Master World`;
 
     }
 
