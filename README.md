@@ -97,7 +97,7 @@ HTML
 
  Javascript
  * Functionality and responsive of the site
- 
+
  ## Frameworks and Libraries
  Gitpod
 * Used as a platform to develop the site
@@ -107,5 +107,14 @@ Google fonts
 
  Font awesome
  * Add icons to the project
+ # Testing
+
+ # Deployment
+Food and wine quiz was deployed as follows:
+* Open the repository on GitHub
+* Go to "Settings" (the tab on the right)
+* On the left hand side select "Pages" 
+* Select the "main" branch as the source. Then it shows you a green confirmation "Your site is published at......" with the URL.
+
 
 
