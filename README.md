@@ -48,8 +48,23 @@ There are two fonts used in this project. Firstly on the landing page  I wanted 
 I used the icons from [Font Awesome](https://fontawesome.com/) that are on the start button to further tell the users the type of the quiz they are about to play.
 # Features
 * The landing page
+
 This is the first page users see when they visit the site. There is a clear start button which they will click and takes them to the next section of the quiz. The landing page contents are positioned in the middle of the page and responsive to all devices.
 ![Landing page](assets/images/Screenshot_112.png)
+
+* Quiz Screen
+
+This is the main game area where all quiz questions and answers are displayed. It consists of the quiz header, questions and answers, as well as quiz progress( question and score). So the user is presented with questions with choices to choose from, the progress is displayed below with question number to the left, and the score to the right.
+![quiz screen](assets/images/Screenshot_116.png)
+
+
+
+
+
+
+
+
+
 
 
 
