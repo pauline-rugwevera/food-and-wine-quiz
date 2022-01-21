@@ -64,6 +64,7 @@ body {
 
 #control-btns {
   margin-top: 30px;
+  margin-bottom: 30px;
 
 }
 
@@ -109,7 +110,7 @@ h4 {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 550px;
+  /* height: 550px; */
   width: 70%;
 
   box-shadow: 1px 5px 5px 1px #57CC99;
@@ -281,10 +282,7 @@ h4 {
 
 /* media queries */
 @media only screen and (max-width:530px) {
-  .box {
-    height: fit-content;
-
-  }
+ 
 
   #welcome-header {
     padding: 4px;
@@ -319,11 +317,11 @@ h4 {
 @media only screen and (max-width:370px) {
   .btn {
     width: 200px;
-    height: 68px;
+  
    
   }
   .box{
-    height: fit-content;
+  
     width: 85%;
   }
   #first-p{
