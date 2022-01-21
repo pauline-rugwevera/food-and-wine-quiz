@@ -116,5 +116,15 @@ Food and wine quiz was deployed as follows:
 * On the left hand side select "Pages" 
 * Select the "main" branch as the source. Then it shows you a green confirmation "Your site is published at......" with the URL.
 
+# Credits
+### Content
+The following websites were used for the research of this project:
+ * https://www.mylondon.news/whats-on/food-drink-news/20-food-quiz-questions-answers-18151583
+* https://www.radiotimes.com/quizzes/pub-quiz-food-and-drink/
+* https://www.bbcgoodfood.com/howto/guide/food-quiz
+* http://www.freepubquiz.co.uk/wine-quiz.html
+* https://pubquizquestionshq.com/quiz/food-and-drink-quiz-round-21
+
+
 
 
