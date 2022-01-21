@@ -83,29 +83,19 @@ The Replay button allows the user to interact with site, allowing them to retake
 The Quit button is another way users will interact with this site. This page allows them to exit the quiz. When they click it, it will take them to the landing page.
 
 ![results page](assets/images/Screenshot_125.png)
-##
-Future Features
+## Future Features
 * In the future I would l like to have category of questions so that users can choose what level they would want to play
 * I would like a feature to allow users to share their results with their loved ones on social media
 
+# Technologies
+## Languages
+HTML
+ * Used a structure language to give this site a structure
 
+ CSS
+ * Used as a style language 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ Javascript
+ * Functionality and responsive of the site
 
 
