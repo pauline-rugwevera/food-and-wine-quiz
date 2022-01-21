@@ -1,7 +1,7 @@
 # The Food And Wine MasterClass Quiz
 Food and Wine Masterclass quiz is a Javascript web application aimed at all food enthusiasts who wish to test their knowledge in the culinary world as well participating in the MasterChef World. All questions are based on the food and wine industry and world cuisines.
 
-![Header Image](assets/images/Screenshot_110.png)
+![Header Image](assets/images/Screenshot_120.png)
 # UX
 ## Site Owner Goals
 - Ensure  users what to do when they arrive on the site
@@ -50,7 +50,7 @@ I used the icons from [Font Awesome](https://fontawesome.com/) that are on the s
 * The landing page
 
 This is the first page users see when they visit the site. There is a clear start button which they will click and takes them to the next section of the quiz. The landing page contents are positioned in the middle of the page and responsive to all devices.
-![Landing page](assets/images/Screenshot_112.png)
+![Landing page](assets/images/Screenshot_121.png)
 
 * Quiz Screen
 
