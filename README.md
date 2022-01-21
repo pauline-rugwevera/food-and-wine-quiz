@@ -1,5 +1,5 @@
-# The Food And Wine MasterClass Quiz
-Food and Wine Masterclass quiz is a Javascript web application aimed at all food enthusiasts who wish to test their knowledge in the culinary world as well participating in the MasterChef World. All questions are based on the food and wine industry and world cuisines.
+# The Food And Wine Taste Master Quiz
+Food and Wine Taste Master class quiz is a Javascript web application aimed at all food enthusiasts who wish to test their knowledge in the culinary world as well participating in the Taste Master World. All questions are based on the food and world cuisines as well as wine. The winners are to get a spot in the upcoming Taste Master World.
 
 ![Header Image](assets/images/Screenshot_120.png)
 # UX
