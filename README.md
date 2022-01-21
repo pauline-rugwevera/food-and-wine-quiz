@@ -29,7 +29,9 @@ Food and Wine Masterclass quiz is a Javascript web application aimed at all food
 - As a returning user, I should be able to play the quiz on any device
 # Design
 ## Colors
-I created the quiz color scheme using [ColorHunt](https://colorhunt.co/palette/22577a38a3a557cc9980ed99). I used four colors eventually though at the beginning I had used only three. This was before I had checked the color contrast with [WebAim](https://webaim.org/resources/contrastchecker/), when I realised two of my colors were failing. In order not  to change everything completely, I added one more as it only covers a smaller part of the project.
+I created the quiz color scheme using [ColorHunt](https://colorhunt.co/palette/22577a38a3a557cc9980ed99). I used five colors eventually though at the beginning I had used only four. This was before I had checked the color contrast with [WebAim](https://webaim.org/resources/contrastchecker/), when I realised two of my colors were failing. In order not  to change everything completely, I added one more as it only covers a smaller part of the project. The final colors used follows:
+
+![color palette](assets/images/Screenshot_111.png)
 
 
 
