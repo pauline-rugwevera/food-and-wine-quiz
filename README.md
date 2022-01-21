@@ -97,5 +97,15 @@ HTML
 
  Javascript
  * Functionality and responsive of the site
+ 
+ ## Frameworks and Libraries
+ Gitpod
+* Used as a platform to develop the site
+
+Google fonts
+* Used as a font library
+
+ Font awesome
+ * Add icons to the project
 
 
