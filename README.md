@@ -107,23 +107,33 @@ Google fonts
 
  Font awesome
  * Add icons to the project
- # Testing
 
- # Deployment
+# Credits
+## Content
+The following websites were used for the quiz questions:
+* https://www.mylondon.news/whats-on/food-drink-news/20-food-quiz-questions-answers-18151583
+* https://www.radiotimes.com/quizzes/pub-quiz-food-and-drink/
+* https://www.bbcgoodfood.com/howto/guide/food-quiz
+* http://www.freepubquiz.co.uk/wine-quiz.html
+* https://pubquizquestionshq.com/quiz/food-and-drink-quiz-round-21
+
+## Code
+All the code production was done using [Gitpod](https://gitpod.io/) and passed in to [HTML validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/) as well as [JSHint](https://jshint.com/) to check for errors. The box shadow code is from [Coding Nepal](https://www.codingnepalweb.com/quiz-app-with-timer-javascript/) that I later adjusted to suit my design of preference. The actual quiz help came from [Web Dev Simplified](https://courses.webdevsimplified.com/) as well as [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw). Icons are from [Font awesome](ontawesome.com). Thanks to [Geek for Geeks](https://www.geeksforgeeks.org/), [W3C Schools](https://www.w3schools.com/) and [Code greeper](codegrepper) for general explanation on CSS and Javascript.
+
+
+
+
+
+ # Testing
+  # Deployment
 Food and wine quiz was deployed as follows:
 * Open the repository on GitHub
 * Go to "Settings" (the tab on the right)
 * On the left hand side select "Pages" 
 * Select the "main" branch as the source. Then it shows you a green confirmation "Your site is published at......" with the URL.
 
-# Credits
-### Content
-The following websites were used for the research of this project:
- * https://www.mylondon.news/whats-on/food-drink-news/20-food-quiz-questions-answers-18151583
-* https://www.radiotimes.com/quizzes/pub-quiz-food-and-drink/
-* https://www.bbcgoodfood.com/howto/guide/food-quiz
-* http://www.freepubquiz.co.uk/wine-quiz.html
-* https://pubquizquestionshq.com/quiz/food-and-drink-quiz-round-21
+
+
 
 
 
