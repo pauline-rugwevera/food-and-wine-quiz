@@ -56,14 +56,14 @@ This is the first page users see when they visit the site. There is a clear star
 
 This is the main game area where all quiz questions and answers are displayed. It consists of the quiz header, questions and answers, as well as quiz progress( question and score). So the user is presented with questions with choices to choose from, the progress is displayed below with question number to the left, and the score to the right.
 
-![quiz screen](assets/images/Screenshot_117.png)
+![quiz screen](assets/images/Screenshot_122.png)
 
 The questions are populated from a local array, easily readable with good color contrast. The answers are presented as A,B,C,D. A user have to pick only one choice from these four choices. If the correct answer is picked, a green color pops in.
 
-![correct ](assets/images/Screenshot_118.png)
+![correct ](assets/images/Screenshot_123.png)
 
 If wrong answer is picked, a red color flashes on the picked choice immediately green color flashes on the correct one before a new question is presented.
-![wrong](assets/images/Screenshot_119.png)
+![wrong](assets/images/Screenshot_124.png)
 
 
 
