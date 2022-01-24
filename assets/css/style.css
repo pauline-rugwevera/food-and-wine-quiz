@@ -235,7 +235,8 @@ h4 {
   width: 100vw;
   height: 100vh;
 }
-#results-header{
+
+#results-header {
   color: #FFFDD0;
   font-size: 22px;
   font-family: 'Monoton', sans-serif;
@@ -292,7 +293,7 @@ h4 {
 
 /* media queries */
 @media only screen and (max-width:530px) {
- 
+
 
   #welcome-header {
     padding: 4px;
@@ -327,17 +328,20 @@ h4 {
 @media only screen and (max-width:370px) {
   .btn {
     width: 200px;
-  
-   
+
+
   }
-  .box{
-  
+
+  .box {
+
     width: 85%;
   }
-  #first-p{
+
+  #first-p {
     padding: 1px;
   }
-  #second-p{
+
+  #second-p {
     padding: 6px;
 
   }
@@ -346,35 +350,62 @@ h4 {
 
 /* question container */
 @media only screen and (max-width:600px) {
-  #box-two{
+  #box-two {
     width: 85%;
   }
-  .answer-container{
+
+  .answer-container {
     margin-left: 15px;
   }
 
-  .choice{
+  .choice {
     padding: 22px 18px;
   }
+}
+
+@media only screen and (max-width:420px) {
+  #quiz-header {
+    padding: 3px;
   }
-  @media only screen and (max-width:420px) {
-    #quiz-header{
-      padding: 3px;
-    }
-     .choice{
-       padding: 19px 22px;
-     }
-     .choice-text{
-       font-size: 18px;
-       padding: 8px;
-     }
-      }
 
-      
-  
+  .choice {
+    padding: 19px 22px;
+  }
+
+  .choice-text {
+    font-size: 18px;
+    padding: 8px;
+  }
+}
+
+@media only screen and (max-width:338px) {
+  #box-two{
+    width: 90%;
 
 
+  }
+  #questions{
+    font-size: 18px;
+    padding: 3px;
+  }
+  .answer-container{
+    height: 62px;
+  }
+  .hr{
+    margin-top: 11px;
+    margin-bottom: 8px;
+  }
+  #question-count{
+    margin-left: 10px;
+  }
  
+  }
+
+
+
+
+
+
 
 /* results box */
 @media only screen and (max-width:632px) {
@@ -462,7 +493,8 @@ h4 {
   #box-three {
     height: 70vh;
   }
-  #welcome-header{
+
+  #welcome-header {
     line-height: 40px;
   }
 
