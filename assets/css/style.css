@@ -357,6 +357,19 @@ h4 {
     padding: 22px 18px;
   }
   }
+  @media only screen and (max-width:420px) {
+    #quiz-header{
+      padding: 3px;
+    }
+     .choice{
+       padding: 19px 22px;
+     }
+     .choice-text{
+       font-size: 18px;
+       padding: 8px;
+     }
+      }
+  
 
 
  
