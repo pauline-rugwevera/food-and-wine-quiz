@@ -382,14 +382,24 @@ height: fit-content;
 
   }
   .answer-container{
-    height: 45px;
+    height: 55px;
+  
+ 
    
   }
+  #hr-question{
+    margin-top: 1px;
+  }
+  #questions{
+    padding: 5px;
+    font-size: 20px;
+  }
   .choice{
-    padding: 8px 40px;
+    padding: 8px 19px;
   }
   .choice-text{
     padding: 7px;
+    font-size: 18px;
   }
   #question-count{
     margin-left: 8px;
