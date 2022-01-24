@@ -493,6 +493,9 @@ h4 {
   #welcome-header {
     line-height: 40px;
   }
+  #thank-you{
+    padding-top: 18px;
+  }
 
 
 }
