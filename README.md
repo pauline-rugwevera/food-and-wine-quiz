@@ -49,7 +49,15 @@ I used the icons from [Font Awesome](https://fontawesome.com/) that are on the s
 ## Wireframes
 I used [Balsamiq](https://balsamiq.com/) to give my site a design I wanted. I first drew a sketch using pen and paper before designing moving on to balsamiq so that I could see hpw it appears on web. I knew that I needed my site to be on one html page divided into sections easy to work with and how they should link together. The wireframes follows:
 * Landing Page
+
 ![landing page](assets/images/Screenshot_127.png)
+* Quiz screen
+
+![quiz screen](assets/images/Screenshot_130.png)
+
+* Results screen
+
+![results screen](assets/images/Screenshot_129.png)
 # Features
 * The landing page
 
