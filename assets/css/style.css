@@ -368,24 +368,34 @@ h4 {
 @media only screen and (max-width:398px) {
   #box-two {
     width: 85%;
-   /* height: fit-content; */
+  
    
 
   }
 
-  /* .answer-container {
-    height: 72px;
-   
-    padding: 0;
-
-  } */
-
-  /* .choice-text {
-    padding: 7px;
-  } */
-
+ 
 
 }
+@media only screen and (max-width:338px) {
+  #box-two {
+height: fit-content;
+
+  }
+  .answer-container{
+    height: 45px;
+   
+  }
+  
+ 
+
+ 
+
+}
+
+
+
+
+
 /* trial */
 
 
