@@ -134,7 +134,7 @@ h4 {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 550px;
+  /* height: 550px; */
   width: 70%;
   box-shadow: 1px 5px 5px 1px #57CC99;
   transform: translate(-50%, -50%);
@@ -345,56 +345,58 @@ h4 {
 }
 
 /* question container */
-@media only screen and (max-width:1150px) {
-  #box-two {
-    height: fit-content;
-  }
 
-}
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:464px) {
   .answer-container {
-    height: 80px;
+    text-align: center;
+    margin-left: 15px ;
+ 
   }
 
 }
 
 @media only screen and (max-width:558px) {
   #box-two {
-    width: 80%;
+    width: 85%;
 
   }
 
-  .answer-container {
-    margin-left: 15px;
-    text-align: center;
-
-  }
 
 }
 
 @media only screen and (max-width:398px) {
   #box-two {
     width: 85%;
+   /* height: fit-content; */
+   
 
   }
 
-  .answer-container {
+  /* .answer-container {
     height: 72px;
+   
     padding: 0;
 
-  }
+  } */
 
-  .choice-text {
+  /* .choice-text {
     padding: 7px;
-  }
+  } */
 
 
 }
+/* trial */
 
-@media only screen and (max-width:352px) {
+
+
+
+
+
+/* @media only screen and (max-width:352px) {
   #box-two {
     width: 90%;
+    
 
   }
 
@@ -402,7 +404,7 @@ h4 {
     padding: 3px;
   }
 
-}
+} */
 
 /* results box */
 @media only screen and (max-width:632px) {
