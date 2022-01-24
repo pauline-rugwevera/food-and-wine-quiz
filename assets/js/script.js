@@ -150,7 +150,6 @@ function displayResults() {
     if (score < 6) {
 
         yourScore.innerText = `You scored:  ${score} / ${maxQuestions}`;
-        resultsHeader.innerText = `You Lost`;
         message.innerText = ` You did not qualify to the Taste Master world`;
 
     } else {
