@@ -4,7 +4,7 @@ Food and Wine Taste Master class quiz is a Javascript web application aimed at a
 ![Header Image](assets/images/Screenshot_120.png)
 # UX
 ## Site Owner Goals
-- Ensure  users what to do when they arrive on the site
+- Ensure  users know what to do when they arrive on the site
 - Ensure a visually appealing site
 - An easy to navigate site
 - Ensure users can track their perfomace throughout
@@ -137,6 +137,21 @@ All the code production was done using [Gitpod](https://gitpod.io/) and passed i
 
 
  # Testing
+ ### Layout Site development
+ One of the site owner's and user goals is to have a visually appealing site with minimal clutter of information. At first the landing page had lots of unnecessary text yet the user just needs a clear instruction that goes straight to its meaning.
+
+ Realised its a pain to have so many buttons you have to click inorder to navigate around, though initially on my paper I had an extra next button I needed to put,I thought to have one button at the landing page then two on the last page was user friendly.
+
+ After completing the site layout and styling, I needed to test out the color contrast and I used [WebAmi](https://webaim.org/resources/contrastchecker/). Two of my colors green and cream were failing. It was not in any intention to change everything completely so had to add an extra color for a good contrast. 
+
+ ### Javascript
+ 
+
+
+
+
+
+
   # Deployment
 Food and wine quiz was deployed as follows:
 * Open the repository on GitHub
