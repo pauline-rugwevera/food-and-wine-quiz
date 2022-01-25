@@ -57,7 +57,7 @@ I used [Balsamiq](https://balsamiq.com/) to give my site a design I wanted. I fi
 
 * Results screen
 
-![results screen](assets/images/Screenshot_129.png)
+![results screen](assets/images/Screenshot_133.png)
 # Features
 * The landing page
 
