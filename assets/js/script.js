@@ -1,15 +1,6 @@
-// start button screen 
-
+// landing page screen 
 let startBtn = document.getElementById('start-btn');
 let startSection = document.getElementById('start');
-
-startBtn.addEventListener('click', function () {
-    startSection.classList.add('hide');
-    boxThree.classList.add('hide');
-    questionContainer.classList.remove('hide');
-
-    startGame();
-});
 
 // Questions screen
 let questionCountText = document.getElementById('question-count');
@@ -23,8 +14,15 @@ let resultsSection = document.getElementById('results-section');
 let yourScore = document.getElementById('your-score');
 let replay = document.getElementById('replay');
 let quit = document.getElementById('quit');
-let resultsHeader = document.getElementById('results-header')
 let message = document.getElementById('message');
+
+startBtn.addEventListener('click', function () {
+    startSection.classList.add('hide');
+    boxThree.classList.add('hide');
+    questionContainer.classList.remove('hide');
+
+    startGame();
+});
 
 // quiz variables
 
@@ -54,7 +52,7 @@ function startGame() {
 function getNewQuestion() {
     questionCount++;
     if (questionsArr.length === 0 || questionCount >= maxQuestions) {
-        //go to the end page
+      
         displayResults();
 
     }
@@ -132,6 +130,7 @@ choices.forEach(function (choice) {
     });
 
 });
+
 // increases score and displays it each time correct answer is picked
 function scoreIncrement() {
     score++;
