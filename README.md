@@ -138,6 +138,15 @@ Google fonts
  ## Perfomance
  I ran lighthouse in dev tools to check the perfomance of the site, the results follows:
  ![lighthouse](assets/images/Screenshot_136.png)
+ ## Code validator
+ I validated the markup and css code using:
+ [W3C Validator](https://validator.w3.org/)
+ [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+
+ Results can be seen at:
+ [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpauline-rugwevera.github.io%2Ffood-and-wine-quiz%2F)
+
+  
 
  # Credits
 ## Content
