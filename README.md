@@ -148,6 +148,11 @@ All the code production was done using [Gitpod](https://gitpod.io/) and passed i
 
  ## Functionality and compatibilty testing
  Chrome developer were used to test for functionality and compatibility. That includes things site responsiveness as well as virtual devices as well as hardware devices like TAB E, Samsung A51.
+ 
+ ## Perfomance testing
+ I used lighthouse in devtools to check perfomance of the site and results follows:
+ 
+ ![lighthouse](assets/images/Screenshot_136.png)
 
 
  
