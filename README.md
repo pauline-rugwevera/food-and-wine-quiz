@@ -120,22 +120,6 @@ Google fonts
  Font awesome
  * Add icons to the project
 
-# Credits
-## Content
-The following websites were used for the quiz questions:
-* https://www.mylondon.news/whats-on/food-drink-news/20-food-quiz-questions-answers-18151583
-* https://www.radiotimes.com/quizzes/pub-quiz-food-and-drink/
-* https://www.bbcgoodfood.com/howto/guide/food-quiz
-* http://www.freepubquiz.co.uk/wine-quiz.html
-* https://pubquizquestionshq.com/quiz/food-and-drink-quiz-round-21
-
-## Code
-All the code production was done using [Gitpod](https://gitpod.io/) and passed in to [HTML validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/) as well as [JSHint](https://jshint.com/) to check for errors. The box shadow code is from [Coding Nepal](https://www.codingnepalweb.com/quiz-app-with-timer-javascript/) that I later adjusted to suit my design of preference. The actual quiz help came from [Web Dev Simplified](https://courses.webdevsimplified.com/) as well as [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw). Icons are from [Font awesome](ontawesome.com). Thanks to [Geek for Geeks](https://www.geeksforgeeks.org/), [W3C Schools](https://www.w3schools.com/) and [Code greeper](codegrepper) for general explanation on CSS and Javascript.
-
-
-
-
-
  # Testing
  ## Layout Site development
  One of the site owner's and user goals is to have a visually appealing site with minimal clutter of information. At first the landing page had lots of unnecessary text yet the user just needs a clear instruction that goes straight to its meaning.
@@ -154,6 +138,21 @@ All the code production was done using [Gitpod](https://gitpod.io/) and passed i
  ## Perfomance
  I ran lighthouse in dev tools to check the perfomance of the site, the results follows:
  ![lighthouse](assets/images/Screenshot_136.png)
+
+ # Credits
+## Content
+The following websites were used for the quiz questions:
+* https://www.mylondon.news/whats-on/food-drink-news/20-food-quiz-questions-answers-18151583
+* https://www.radiotimes.com/quizzes/pub-quiz-food-and-drink/
+* https://www.bbcgoodfood.com/howto/guide/food-quiz
+* http://www.freepubquiz.co.uk/wine-quiz.html
+* https://pubquizquestionshq.com/quiz/food-and-drink-quiz-round-21
+
+## Code
+All the code production was done using [Gitpod](https://gitpod.io/) and passed in to [HTML validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/) as well as [JSHint](https://jshint.com/) to check for errors. The box shadow code is from [Coding Nepal](https://www.codingnepalweb.com/quiz-app-with-timer-javascript/) that I later adjusted to suit my design of preference. The actual quiz help came from [Web Dev Simplified](https://courses.webdevsimplified.com/) as well as [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw). Icons are from [Font awesome](ontawesome.com). Thanks to [Geek for Geeks](https://www.geeksforgeeks.org/), [W3C Schools](https://www.w3schools.com/) and [Code greeper](codegrepper) for general explanation on CSS and Javascript.
+
+
+
  
   # Deployment
 Food and wine quiz was deployed as follows:
