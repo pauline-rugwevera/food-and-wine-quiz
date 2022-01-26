@@ -154,7 +154,7 @@ function displayResults() {
 
     } else {
         yourScore.innerText = `You scored:  ${score} / ${maxQuestions}`;
-        resultsHeader.innerText = `You Win`;
+     
         message.innerText = `Congratulations! You have earned your spot at the Taste Master World`;
 
     }
