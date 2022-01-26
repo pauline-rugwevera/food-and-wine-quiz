@@ -145,23 +145,13 @@ All the code production was done using [Gitpod](https://gitpod.io/) and passed i
  After completing the site layout and styling, I needed to test out the color contrast and I used [WebAmi](https://webaim.org/resources/contrastchecker/). Two of my colors green and cream were failing. It was not in any intention to change everything completely so had to add an extra color for a good contrast. 
 
  ### Javascript
+ The first problem I encountered Javascript that took me hours to get through was displaying answers or choice corresponding to each question. All that was displaying were the same type of answers for all questions. This however was solved using dataset attribute, that I attributed to all answers/choice text in html then created a function that displays in html, a concept I learned from [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw).
+
+ When the above was solved, I realized questions were displaying in multiples of 3, for example from question 1, the next question will be question 3 and so forth. There is a function that checks if the answer is correct. It has an if else statement, in the else statement there is for loop that was calling a get new question function. Meaning this function was being called twice inside the else statement. It took me hours to realize this, something that did not want any extra lines of code.
 
  ## Functionality and compatibilty testing
  Chrome developer were used to test for functionality and compatibility. That includes things site responsiveness as well as virtual devices as well as hardware devices like TAB E, Samsung A51.
  
- ## Perfomance testing
- I used lighthouse in devtools to check perfomance of the site and results follows:
- 
- ![lighthouse](assets/images/Screenshot_136.png)
-
-
- 
-
-
-
-
-
-
   # Deployment
 Food and wine quiz was deployed as follows:
 * Open the repository on GitHub
