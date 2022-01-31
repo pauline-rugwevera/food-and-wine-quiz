@@ -193,6 +193,22 @@ h4 {
   margin-right: 40px;
 
 }
+.quiz-screen{
+ 
+  
+}
+#quit-quiz{
+  margin-left: 40px;
+  float: left;
+  text-align: left;
+
+}
+#next-question{
+  float: right;
+  text-align: right;
+  margin-right: 40px;
+
+}
 
 /* correct and wrong answer change in color */
 .choice-text.correct {
@@ -252,7 +268,7 @@ h4 {
 
 }
 
-.results-btn {
+.results-btn, .quiz-screen{
   border: 1px solid #57CC99;
   background-color: #57CC99;
   color: #102637;
