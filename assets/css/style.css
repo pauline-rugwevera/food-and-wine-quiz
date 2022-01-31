@@ -265,6 +265,9 @@ h4 {
   font-size: 100px;
 
 }
+#replay,#quit,#quit-quiz,#next-question{
+  text-transform: uppercase;
+}
 
 .results-btn, .quiz-screen{
   border: 1px solid #57CC99;
