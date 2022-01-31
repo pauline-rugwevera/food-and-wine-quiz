@@ -13,6 +13,8 @@ body {
   font-family: 'Noto Serif', sans-serif;
   font-size: 14px;
   width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 
 }
 
@@ -94,6 +96,17 @@ h4 {
   font-size: 22px;
   font-family: 'Noto Serif', sans-serif
 }
+.box-one{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  box-shadow: 1px 5px 5px 1px #57CC99;
+  transform: translate(-50%, -50%);
+}
+#rules-list{
+  text-align: center;
+}
 
 .rule{
   padding: 2px;
@@ -108,13 +121,14 @@ h4 {
 
 }
 
-.box, .box-one{
+.box{
   position: absolute;
   top: 50%;
   left: 50%;
   width: 70%;
   box-shadow: 1px 5px 5px 1px #57CC99;
   transform: translate(-50%, -50%);
+  
 
 }
 
