@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <!-- the landing screen -->
   <section id="start">
     <div class="box">
       <h1 id="welcome-header">Food and Wine Taste Master Quiz</h1>
@@ -37,48 +38,53 @@
   <section id="question-container" class="hide">
     <div id="box-two">
       <h4 id="quiz-header">Food and Wine Taste Master Quiz</h4>
-      
-        <p id="question-count">Question: 1</p>
-        <p id="score">Score: 0 </p>
-        
+
+      <p id="question-count"></p>
+      <p id="score">Score: 0 </p>
+
 
       <!-- questions and answers -->
-      <h2 id="questions">Gruyère is a cheese from which country?</h2>
+      <!-- Question populated from js -->
+      <h2 id="questions"></h2>
       <div class="answer-container">
         <p class="choice">A</p>
-        <p class="choice-text " data-option="a">Germany</p>
+        <!-- choice text populated from js -->
+        <p class="choice-text " data-option="a"></p>
       </div>
       <div class="answer-container">
         <p class="choice ">B</p>
-        <p class="choice-text " data-option="b">Switzerland</p>
+        <!-- choice text populated from js -->
+        <p class="choice-text " data-option="b"></p>
       </div>
       <div class="answer-container">
         <p class="choice">C</p>
-        <p class="choice-text" data-option="c">France</p>
+        <!-- choice text populated from js -->
+        <p class="choice-text" data-option="c"></p>
       </div>
       <div class="answer-container">
         <p class="choice">D</p>
-        <p class="choice-text" data-option="d">Italy</p>
+        <!-- choice text populated from js -->
+        <p class="choice-text" data-option="d"></p>
 
       </div>
       <hr>
       <button id="quit-quiz" class="quiz-screen">Quit</button>
       <button id="next-question" class="quiz-screen">Next</button>
-      
 
 
     </div>
   </section>
+  <!-- results-screen -->
   <section id="results-section" class="hide">
-
     <div id="box-three">
-
       <div id="trophy">
         <i class="fas fa-trophy green"></i>
       </div>
 
       <h4 id="thank-you">Thank you for completing the quiz</h4>
-      <p id="your-score">Your Score is: 3/10</p>
+      <!-- score is populated from js -->
+      <p id="your-score"></p>
+      <!-- message populated from js -->
       <p id="message"></p>
       <div id="results-btns">
         <button id="replay" class="results-btn">Replay</button>
