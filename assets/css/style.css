@@ -398,6 +398,26 @@ h4 {
   }
 }
 
+@media only screen and (max-width:320px) {
+  .box-one {
+    width: 90%;
+    height: fit-content;
+  }
+  #rules-header{
+    padding: 3px;
+    letter-spacing: 5px;
+  }
+ .rule{
+   padding: 3px;
+   margin: 0;
+  
+ 
+ }
+ #rules-list{
+   font-size: 17px;
+ }
+ 
+}
 
 
 
