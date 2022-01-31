@@ -389,15 +389,16 @@ h4 {
     width: 80%;
   }
 }
-
 @media only screen and (max-width:376px) {
   .box-one {
     width: 85%;
   }
-  .quit{
+  #quit-rules{
     margin-left: 19px;
   }
 }
+
+
 
 
 
