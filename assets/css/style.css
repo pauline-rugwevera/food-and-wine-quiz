@@ -102,7 +102,7 @@ h4 {
 
 }
 
-.box{
+.box, .box-one{
   position: absolute;
   top: 50%;
   left: 50%;
