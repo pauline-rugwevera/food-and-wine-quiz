@@ -143,6 +143,24 @@ h4 {
   font-size: 200%;
 
 }
+#question-count {
+  color: #FFFDD0;
+  font-size: 22px;
+  font-family: 'Noto Serif', sans-serif;
+  margin-left: 40px;
+  float: left;
+  text-align: left;
+
+}
+
+#score {
+  font-size: 22px;
+  font-family: 'Noto Serif', sans-serif;
+  float: right;
+  text-align: right;
+  margin-right: 40px;
+
+}
 
 .answer-container {
   display: flex;
@@ -175,28 +193,8 @@ h4 {
   background-color: var(--hue);
 }
 
-#question-count {
-  color: #FFFDD0;
-  font-size: 22px;
-  font-family: 'Noto Serif', sans-serif;
-  margin-left: 40px;
-  float: left;
-  text-align: left;
 
-}
 
-#score {
-  font-size: 22px;
-  font-family: 'Noto Serif', sans-serif;
-  float: right;
-  text-align: right;
-  margin-right: 40px;
-
-}
-.quiz-screen{
- 
-  
-}
 #quit-quiz{
   margin-left: 40px;
   float: left;
