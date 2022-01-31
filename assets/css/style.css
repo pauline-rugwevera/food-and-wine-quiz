@@ -195,13 +195,13 @@ h4 {
 
 
 
-#quit-quiz{
+#quit-quiz, .quit{
   margin-left: 40px;
   float: left;
   text-align: left;
 
 }
-#next-question{
+#next-question, .next{
   float: right;
   text-align: right;
   margin-right: 40px;
@@ -269,7 +269,7 @@ h4 {
   text-transform: uppercase;
 }
 
-.results-btn, .quiz-screen{
+.results-btn, .quiz-screen, .btns{
   border: 1px solid #57CC99;
   background-color: #57CC99;
   color: #102637;
