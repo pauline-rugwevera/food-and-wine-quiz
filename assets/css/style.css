@@ -95,6 +95,12 @@ h4 {
   font-family: 'Noto Serif', sans-serif
 }
 
+.rule{
+  padding: 2px;
+  margin-left: 5px;
+}
+
+
 #questions {
   text-align: center;
   padding-bottom: 9px;
@@ -131,7 +137,7 @@ h4 {
   transform: translate(-50%, -50%);
 }
 
-#quiz-header {
+#quiz-header, #rules-header {
   color: #FFFDD0;
   font-size: 22px;
   font-family: 'Monoton', sans-serif;
