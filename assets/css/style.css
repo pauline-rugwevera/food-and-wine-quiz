@@ -195,13 +195,13 @@ h4 {
 
 
 
-#quit-quiz, .quit{
+.quit{
   margin-left: 40px;
   float: left;
   text-align: left;
 
 }
-#next-question, .next{
+.next{
   float: right;
   text-align: right;
   margin-right: 40px;
