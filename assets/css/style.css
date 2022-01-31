@@ -16,7 +16,7 @@ body {
 
 }
 
-#start {
+#start, #rules {
   background-color: #22577A;
   width: 100vw;
   overflow: hidden;
@@ -102,7 +102,7 @@ h4 {
 
 }
 
-.box {
+.box{
   position: absolute;
   top: 50%;
   left: 50%;

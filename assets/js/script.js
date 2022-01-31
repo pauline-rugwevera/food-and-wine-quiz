@@ -19,7 +19,7 @@ let message = document.getElementById('message');
 startBtn.addEventListener('click', function () {
     startSection.classList.add('hide');
     boxThree.classList.add('hide');
-    questionContainer.classList.remove('hide');
+    questionContainer.classList.add('hide');
 
     startGame();
 });
