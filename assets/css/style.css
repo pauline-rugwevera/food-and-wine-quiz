@@ -383,6 +383,23 @@ h4 {
   }
 
 }
+/* rules screen */
+@media only screen and (max-width:500px) {
+  .box-one {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width:376px) {
+  .box-one {
+    width: 85%;
+  }
+  .quit{
+    margin-left: 19px;
+  }
+}
+
+
 
 /* question container */
 @media only screen and (max-width:600px) {
