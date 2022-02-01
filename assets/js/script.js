@@ -226,8 +226,6 @@ function disableColor() {
  */
 
 
-
-
      quits.forEach(function (quit){
          quit.addEventListener('click', function(e){
             startSection.classList.remove('hide');
@@ -235,6 +233,7 @@ function disableColor() {
             resultsSection.classList.add('hide');
         
             questionContainer.classList.add('hide');
+            rules.classList.add('hide');
         
             scoreText.innerText = `Score : ${0}`;
         
