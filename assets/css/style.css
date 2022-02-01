@@ -229,13 +229,13 @@ h4 {
 
 
 
-#quit-rules{
+#quit-rules, #quit-quiz{
   margin-left: 40px;
   float: left;
   text-align: left;
 
 }
-#next-page{
+#next-page, #next-question{
   float: right;
   text-align: right;
   margin-right: 40px;
