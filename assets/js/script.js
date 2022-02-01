@@ -30,7 +30,7 @@ startBtn.addEventListener('click', function () {
     startGame();
 });
 // continue button
-nextPage.addEventListener('click', function(){
+nextPage.addEventListener('click', function () {
     questionContainer.classList.remove('hide');
 
     rules.classList.add('hide')
@@ -46,10 +46,6 @@ let questionCount = 0;
 let questionsArr = [];
 let currentQuestion = {};
 const maxQuestions = 10;
-
-
-
-
 
 /**
  * A function that initialise variables,and get new questions from the getNewQuestion function
@@ -167,7 +163,6 @@ function displayResults() {
 
     }
 
-
 }
 
 /**
@@ -191,21 +186,7 @@ nextQuestion.addEventListener('click', function () {
     disableColor();
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 function disableColor() {
-
 
     for (let i = 0; i < choices.length; i++) {
         userAnswer =
@@ -215,33 +196,24 @@ function disableColor() {
 }
 
 
-
-
-
-
-
 /**
  * Function to quit the quiz, by displaying the main page and hiding results and questions page
  * reseting all variables.
  */
 
 
-     quits.forEach(function (quit){
-         quit.addEventListener('click', function(e){
-            startSection.classList.remove('hide');
+quits.forEach(function (quit) {
+    quit.addEventListener('click', function (e) {
+        startSection.classList.remove('hide');
 
-            resultsSection.classList.add('hide');
-        
-            questionContainer.classList.add('hide');
-            rules.classList.add('hide');
-        
-            scoreText.innerText = `Score : ${0}`;
-        
-            startGame();
+        resultsSection.classList.add('hide');
 
-         });
-     })
+        questionContainer.classList.add('hide');
+        rules.classList.add('hide');
 
+        scoreText.innerText = `Score : ${0}`;
 
-    
+        startGame();
 
+    });
+})
