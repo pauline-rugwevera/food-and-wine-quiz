@@ -1,6 +1,7 @@
 // landing page screen 
 let startBtn = document.getElementById('start-btn');
 let startSection = document.getElementById('start');
+let rules = document.getElementById('rules');
 
 // Questions screen
 let questionCountText = document.getElementById('question-count');
@@ -19,6 +20,7 @@ let message = document.getElementById('message');
 startBtn.addEventListener('click', function () {
     startSection.classList.add('hide');
     boxThree.classList.add('hide');
+    rules.classList.remove('hide');
     questionContainer.classList.add('hide');
 
     startGame();
