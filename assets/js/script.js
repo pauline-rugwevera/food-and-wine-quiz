@@ -2,6 +2,8 @@
 let startBtn = document.getElementById('start-btn');
 let startSection = document.getElementById('start');
 let rules = document.getElementById('rules');
+// rules page
+let nextPage = document.getElementById('next-page')
 
 // Questions screen
 let questionCountText = document.getElementById('question-count');
@@ -22,11 +24,18 @@ let message = document.getElementById('message');
 startBtn.addEventListener('click', function () {
     startSection.classList.add('hide');
     boxThree.classList.add('hide');
-    rules.classList.add('hide');
-    questionContainer.classList.remove('hide');
+    rules.classList.remove('hide');
+    // questionContainer.classList.add('hide');
 
     startGame();
 });
+// continue button
+nextPage.addEventListener('click', function(){
+    questionContainer.classList.remove('hide');
+
+    rules.classList.add('hide')
+
+})
 
 // quiz variables
 
