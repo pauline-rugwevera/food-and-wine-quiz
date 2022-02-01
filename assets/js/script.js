@@ -15,7 +15,8 @@ let boxThree = document.getElementById('box-three');
 let resultsSection = document.getElementById('results-section');
 let yourScore = document.getElementById('your-score');
 let replay = document.getElementById('replay');
-let quit = document.getElementById('quit');
+// let quit = document.getElementById('quit');
+let quits = document.querySelectorAll('.quits');
 let message = document.getElementById('message');
 
 startBtn.addEventListener('click', function () {
@@ -214,15 +215,25 @@ function disableColor() {
  * Function to quit the quiz, by displaying the main page and hiding results and questions page
  * reseting all variables.
  */
-quit.addEventListener('click', function () {
-    startSection.classList.remove('hide');
 
-    resultsSection.classList.add('hide');
 
-    questionContainer.classList.add('hide');
 
-    scoreText.innerText = `Score : ${0}`;
 
-    startGame();
+     quits.forEach(function (quit){
+         quit.addEventListener('click', function(e){
+            startSection.classList.remove('hide');
 
-});
+            resultsSection.classList.add('hide');
+        
+            questionContainer.classList.add('hide');
+        
+            scoreText.innerText = `Score : ${0}`;
+        
+            startGame();
+
+         });
+     })
+
+
+    
+
