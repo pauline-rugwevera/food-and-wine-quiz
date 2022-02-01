@@ -235,7 +235,7 @@ h4 {
   text-align: left;
 
 }
-.next{
+#next-page{
   float: right;
   text-align: right;
   margin-right: 40px;
@@ -385,39 +385,21 @@ h4 {
 
 }
 /* rules screen */
-@media only screen and (max-width:500px) {
-  .box-one {
-    width: 80%;
-  }
-}
-@media only screen and (max-width:376px) {
+@media only screen and (max-width:1100px) {
   .box-one {
     width: 85%;
-  }
-  #quit-rules{
-    margin-left: 19px;
+    
   }
 }
-
-@media only screen and (max-width:320px) {
-  .box-one {
-    width: 90%;
-    height: fit-content;
+@media only screen and (max-width:464px) {
+  #quit-rules{
+    margin-left: 15px;
+    padding: 0 11px;
   }
-  #rules-header{
-    padding: 3px;
-    letter-spacing: 5px;
+  #next-page{
+    padding: 0 11px;
+    margin-right: 14px;
   }
- .rule{
-   padding: 3px;
-   margin: 0;
-  
- 
- }
- #rules-list{
-   font-size: 17px;
- }
- 
 }
 
 
