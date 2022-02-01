@@ -9,6 +9,7 @@ let questionItem = document.getElementById('questions');
 let choices = Array.from(document.querySelectorAll(".choice-text"));
 let scoreText = document.getElementById('score');
 let questionContainer = document.getElementById('question-container');
+let nextQuestion = document.getElementById ('next-question');
 // Results box
 let boxThree = document.getElementById('box-three');
 let resultsSection = document.getElementById('results-section');
@@ -20,8 +21,8 @@ let message = document.getElementById('message');
 startBtn.addEventListener('click', function () {
     startSection.classList.add('hide');
     boxThree.classList.add('hide');
-    rules.classList.remove('hide');
-    questionContainer.classList.add('hide');
+    rules.classList.add('hide');
+    questionContainer.classList.remove('hide');
 
     startGame();
 });
@@ -91,17 +92,18 @@ choices.forEach(function (choice) {
         if (acceptUserAnswer === false) return;
         // prevents player from answering a question
         acceptUserAnswer = false;
-        const clickedOption = event.target;
+       const clickedOption = event.target;
         let clickedAnswer = clickedOption.dataset.option;
 
         // checks if the answer is correct
         if (clickedAnswer == currentQuestion.answer) {
             scoreIncrement();
             clickedOption.classList.add('correct');
-            setTimeout(function () {
-                clickedOption.classList.remove('correct');
-                getNewQuestion();
-            }, 1000);
+          
+            // setTimeout(function () {
+                // clickedOption.classList.remove('correct');
+                // getNewQuestion();
+            // }, 1000);
 
 
             // checks if the answer is wrong
@@ -111,10 +113,10 @@ choices.forEach(function (choice) {
             for (let i = 0; i < choices.length; i++) {
                 if (choices[i].dataset.option == currentQuestion.answer) {
                     choices[i].classList.add('correct');
-                    setTimeout(function () {
-                        choices[i].classList.remove('correct');
-                        // getNewQuestion()
-                    }, 1000);
+                    // setTimeout(function () {
+                    //     choices[i].classList.remove('correct');
+                    //     // getNewQuestion()
+                    // }, 1000);
 
                 }
 
@@ -122,12 +124,13 @@ choices.forEach(function (choice) {
             // add wrong class
             clickedOption.classList.add('wrong');
 
-            setTimeout(function () {
-                clickedOption.classList.remove('wrong');
+            // setTimeout(function () {
+                // clickedOption.classList.remove('wrong');
 
-                getNewQuestion();
-            }, 1000);
+                // getNewQuestion();
+            // }, 1000);
         }
+      
 
     });
 
@@ -177,6 +180,20 @@ replay.addEventListener('click', function () {
 
 
 });
+
+nextQuestion.addEventListener('click', function (){
+   disableColor();
+   getNewQuestion();
+  
+});
+
+function disableColor(){
+    for (let i = 0; i < choices.length; i++) {
+        choices[i].classList.remove("correct");
+        choices[i].classList.remove("wrong");
+    }
+}
+
 
 
 
