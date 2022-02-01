@@ -229,7 +229,7 @@ h4 {
 
 
 
-.quit{
+#quit-rules{
   margin-left: 40px;
   float: left;
   text-align: left;
@@ -299,11 +299,12 @@ h4 {
   font-size: 100px;
 
 }
-#replay,#quit,#quit-quiz,#next-question{
+
+.btns{
   text-transform: uppercase;
 }
 
-.results-btn, .quiz-screen, .btns{
+.btns{
   border: 1px solid #57CC99;
   background-color: #57CC99;
   color: #102637;
