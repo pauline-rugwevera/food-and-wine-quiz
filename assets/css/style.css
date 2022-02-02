@@ -88,6 +88,7 @@ body {
 
 #questions,
 #thank-you,
+#choice,
 p,
 h1,
 h2,
@@ -169,14 +170,14 @@ h4 {
 
 #quiz-header {
   color: #FFFDD0;
-  font-size: 22px;
+  font-size: 18px;
   font-family: 'Monoton', sans-serif;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-size: 200%;
+ 
 
 }
 #question-count {
@@ -184,6 +185,8 @@ h4 {
   font-size: 22px;
   font-family: 'Noto Serif', sans-serif;
   margin-left: 40px;
+  
+
   float: left;
   text-align: left;
 
@@ -514,6 +517,7 @@ h4 {
   }
 
 }
+
 
 /* results box */
 @media only screen and (max-width:632px) {
