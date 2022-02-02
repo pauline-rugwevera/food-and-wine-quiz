@@ -66,20 +66,20 @@ This is the first page users see when they visit the site. There is a clear star
 
 * Quiz Screen
 
-This is the main game area where all quiz questions and answers are displayed. It consists of the quiz header, questions and answers, as well as quiz progress( question and score). So the user is presented with questions with choices to choose from, the progress is displayed below with question number to the left, and the score to the right.
+This is the main game area where all quiz questions and answers are displayed. It consists of the quiz header, questions and answers, quiz progress( question and score) as well as quit and next buttons. So the user is presented with questions with choices to choose from, the progress is displayed below the header with question number to the left, and the score to the right. he score increments each time the user choose a correct answer.
 
-![quiz screen](assets/images/Screenshot_122.png)
+ If the user wishes to quit they can easily do so however their score will not be saved. Also users have to select their desired answer first before the next button can be activated. In doing so they have to know that once they select an answer they cannot deselect it.
 
-The questions are populated from a local array, easily readable with good color contrast. The answers are presented as A,B,C,D. A user have to pick only one choice from these four choices. If the correct answer is picked, a green color pops in.
+![quiz screen](assets/images/Screenshot_145.png)
 
-![correct ](assets/images/Screenshot_123.png)
+The questions are populated from a local array, easily readable with good color contrast. The answers are presented as A,B,C,D. A user have to select only one choice from the given four choices. If the correct answer is selected, a green color pops in. They can click the next button to be presented with a new question.
 
-If wrong answer is picked, a red color flashes on the picked choice immediately green color flashes on the correct one before a new question is presented.
-![wrong](assets/images/Screenshot_124.png)
+![correct ](assets/images/Screenshot_141.png)
 
+If wrong answer is selected, a red color flashes on the user selected choice, immediately green color flashes on the correct one.They can click the next button to be presented with a new question.
 
+![wrong](assets/images/Screenshot_142.png)
 
-The question increment each time user is presented with a new question, and user cannot be given a new question unless they first choose an answer for the already presented one. The score increments each time the user choose a correct answer.
 
 # Results page
 This is the last section of the quiz that is shown to the user once they complete the quiz. It shows four main things, 
@@ -87,14 +87,25 @@ This is the last section of the quiz that is shown to the user once they complet
 * The feedback information
 * The Replay button
 * The Quit button
+![results page](assets/images/Screenshot_125.png)
 
-The score shows the final score the user get which has been incrementing along per each correct answer they chose. The feedback text shows the user if they had qualified to the TasteMaster World based on their final score. If they score 6 out of 10, they earn a place at the TasteMaster World, however anthing below that it means they would not qualify.
+The score shows the final score the user get which has been incrementing along per each correct answer they chose. The feedback text shows the user if they had qualified to the TasteMaster World based on their final score. 
+
+
+ If they score 5 out of 10 and below it means they did not qualify
+ ![not qualify](assets/images/Screenshot_143.png)
+
+If they score 6 out of 10, they earn a place at the TasteMaster World.
+
+ ![qualified](assets/images/Screenshot_125.png)
+
+
 
 The Replay button allows the user to interact with site, allowing them to retake the quiz. Upon clicking this button, this will take them to the question screen page where they will be presented with the first question.
 
 The Quit button is another way users will interact with this site. This page allows them to exit the quiz. When they click it, it will take them to the landing page.
 
-![results page](assets/images/Screenshot_125.png)
+
 ## Future Features
 * In the future I would l like to have category of questions so that users can choose what level they would want to play
 * I would like a feature to allow users to share their results with their loved ones on social media
