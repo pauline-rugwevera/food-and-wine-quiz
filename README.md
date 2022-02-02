@@ -64,6 +64,14 @@ I used [Balsamiq](https://balsamiq.com/) to give my site a design I wanted. I fi
 This is the first page users see when they visit the site. There is a clear start button which they will click and takes them to the next section of the quiz. The landing page contents are positioned in the middle of the page and responsive to all devices.
 ![Landing page](assets/images/Screenshot_121.png)
 
+* The rules screen
+
+This is the second page users will after the start button is selected. It contains all the rules of the game in which the player has to read them first and understand before proceeding. All rules are clear and go straight to the point. There are 7 rules to be understood before playing the quiz.
+
+There is a quit button on the left of this page and a continue button on the right. The quit button allows the user to easily leave the quiz back to the landing page, the continue button allows the user to be presented with the quiz screen where they can begin taking the quiz.
+
+![rules section](assets/images/Screenshot_147.png) 
+
 * Quiz Screen
 
 This is the main game area where all quiz questions and answers are displayed. It consists of the quiz header, questions and answers, quiz progress( question and score) as well as quit and next buttons. So the user is presented with questions with choices to choose from, the progress is displayed below the header with question number to the left, and the score to the right. he score increments each time the user choose a correct answer.
