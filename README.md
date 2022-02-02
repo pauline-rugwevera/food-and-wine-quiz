@@ -51,13 +51,19 @@ I used [Balsamiq](https://balsamiq.com/) to give my site a design I wanted. I fi
 * Landing Page
 
 ![landing page](assets/images/Screenshot_127.png)
+
+* Rules screen
+
+![rules ](assets/images/Screenshot_151.png)
+
 * Quiz screen
 
-![quiz screen](assets/images/Screenshot_130.png)
+![quiz screen](assets/images/Screenshot_149.png)
 
 * Results screen
 
 ![results screen](assets/images/Screenshot_133.png)
+
 # Features
 * The landing page
 
