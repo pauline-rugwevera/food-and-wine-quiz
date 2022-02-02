@@ -147,19 +147,22 @@ Google fonts
 
  # Testing
  ## Layout Site development
- One of the site owner's and user goals is to have a visually appealing site with minimal clutter of information. At first the landing page had lots of unnecessary text yet the user just needs a clear instruction that goes straight to its meaning.
 
- Realised its a pain to have so many buttons you have to click inorder to navigate around, though initially on my paper I had an extra next button I needed to put,I thought to have one button at the landing page then two on the last page was user friendly.
+ Easy to navigate is one the site owner's goals. The first design of the website was without buttons on the quiz screen. During testing with the mentor, the site looked fine, however to some with autism it was not quite friendly as there was no proper navigation suitable for them. to solve that I had to include the next button. Also I had designed it in such a way that one cannot quit in between the quiz. Had to change a little bit from my previous wireframes designs by adding the quit button to exit the quiz anytime as well as the next button.
+
+ Adding on that my mentor thought the need to put an extra section of the quiz rules so that users get to understand how to go about the quiz. Created the wireframe of it and put an extra page for rules.
 
  After completing the site layout and styling, I needed to test out the color contrast and I used [WebAmi](https://webaim.org/resources/contrastchecker/). Two of my colors green and cream were failing. It was not in any intention to change everything completely so had to add an extra color for a good contrast. 
 
- ### Javascript
- The first problem I encountered Javascript that took me hours to get through was displaying answers or choice corresponding to each question. All that was displaying were the same type of answers for all questions. This however was solved using dataset attribute, that I attributed to all answers/choice text in html then created a function that displays in html, a concept I learned from [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw).
+ ## Javascript
+ The first problem I encountered Javascript that took me hours to get through was displaying answers or choice corresponding to each question. All that was displaying was undefined. This however was solved using dataset attribute, that I attributed to all answers/choice text in html then created a function that displays in html, a concept I learned from [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw).
 
- When the above was solved, I realized questions were displaying in multiples of 3, for example from question 1, the next question will be question 3 and so forth. There is a function that checks if the answer is correct. It has an if else statement, in the else statement there is for loop that was calling a get new question function. Meaning this function was being called twice inside the else statement. It took me hours to realize this, something that did not want any extra lines of code.
+ After fixing the layout testing putting all the buttons in place and functionality, I realised a user can easily skip questions without answering them by clicking the next button. This took me a whole lot of hours trying to fix yet it was only one line of code needed. Solved this using the button disabled property from [W3C Schools](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp)
+
+ 
 
  ## Functionality and compatibilty testing
- Chrome developer were used to test for functionality and compatibility. That includes things site responsiveness as well as virtual devices as well as hardware devices like TAB E, Samsung A51.
+ Chrome developer tools were used to test for functionality and compatibility for things like site responsiveness, debugging.  The site was tested on virtual devices as well as hardware devices like TAB E, Samsung A51.
  ## Perfomance
  I ran lighthouse in dev tools to check the perfomance of the site, the results follows:
  ![lighthouse](assets/images/Screenshot_136.png)
