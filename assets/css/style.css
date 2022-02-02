@@ -334,6 +334,14 @@ h4 {
 #message {
   padding: 6px;
   text-align: center;
+  font-size: 20px;
+  font-family: 'Noto Serif', sans-serif;
+
+}
+#thank-you, #your-score{
+  font-size: 20px;
+  font-family: 'Noto Serif', sans-serif;
+
 }
 
 .hide {

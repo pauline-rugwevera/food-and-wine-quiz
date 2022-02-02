@@ -34,48 +34,42 @@
     </div>
   </section>
   <!-- the rules page -->
-  <section id="rules" class="hide" >
+  <section id="rules" class="hide">
     <div class="box-one">
       <div>
-      <h4 id="rules-header">Food and Wine Taste Master Quiz</h4>
-      <p id="rules-list">Rules for this quiz</p>
-      <hr>
+        <h4 id="rules-header">Food and Wine Taste Master Quiz</h4>
+        <p id="rules-list">Rules for this quiz</p>
+        <hr>
 
-      <div>
-       
-        <p class="rule">1. There are 10 questions in this quiz</p>
-        <p class="rule">2. There is no time limit per question</p>
-        <p class="rule">3. You can quit while playing but your score will be back at 0 </p>
-        <p class="rule">4. Once you choose an answer you cannot deselect it </p>
-        <p class="rule">5. Green pop up color represents correct answer</p>
-        <p class="rule">6. Red pop up color represents wrong answer </p>
-        <p class="rule">7. Score increase is based on correct answers only </p>
+        <div>
+
+          <p class="rule">1. There are 10 questions in this quiz</p>
+          <p class="rule">2. There is no time limit per question</p>
+          <p class="rule">3. You can quit while playing but your score will be back at 0 </p>
+          <p class="rule">4. Once you choose an answer you cannot deselect it </p>
+          <p class="rule">5. Green pop up color represents correct answer</p>
+          <p class="rule">6. Red pop up color represents wrong answer </p>
+          <p class="rule">7. Score increase is based on correct answers only </p>
+        </div>
+        <hr>
+
+        <button id="quit-rules" class="btns quit quits">Quit</button>
+        <button id="next-page" class="btns">Continue</button>
+
       </div>
-      <hr>
-
-      <button id="quit-rules" class="btns quit quits">Quit</button>
-      <button id="next-page" class="btns">Continue</button>
-
-    </div>
     </div>
 
 
   </section>
 
-  <!-- Question and answer box -->
+  <!-- Questions and answers section -->
   <section id="question-container" class="hide">
     <div id="box-two">
       <h4 id="quiz-header">Food and Wine Taste Master Quiz</h4>
       <hr>
-  
-      
-     
-
       <p id="question-count"></p>
       <p id="score"></p>
-
-
-      <!-- questions and answers -->
+      <!-- question and answer container -->
       <!-- Question populated from js -->
       <h2 id="questions"></h2>
       <div class="answer-container">
@@ -100,17 +94,15 @@
 
       </div>
       <hr>
-      <button id="quit-quiz" class="quiz-screen btns quits">Quit</button>
-      <button id="next-question" class="quiz-screen btns next">Next</button>
+      <button id="quit-quiz" class="btns quits">Quit</button>
+      <button id="next-question" class="btns">Next</button>
 
 
     </div>
   </section>
-  <!-- results-screen -->
+  <!-- Results-screen Section-->
   <section id="results-section" class="hide">
-
     <div id="box-three">
-
       <div id="trophy">
         <i class="fas fa-trophy green"></i>
       </div>
@@ -121,8 +113,8 @@
       <!-- message populated from js -->
       <p id="message"></p>
       <div id="results-btns">
-        <button id="replay" class="results-btn btns">Replay</button>
-        <button id="quit" class="results-btn btns quits">Quit</button>
+        <button id="replay" class="btns">Replay</button>
+        <button id="quit" class="btns quits">Quit</button>
       </div>
     </div>
   </section>
