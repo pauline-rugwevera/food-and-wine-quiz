@@ -120,7 +120,7 @@ let foodAndWine = [
 
     },
     {
-        question: 'Roughly how much does an egg (in its shell) weigh?',
+        question: 'How much does an egg weigh?',
         a:'20g',
         b :'55g',
         c: '23g',
@@ -130,7 +130,7 @@ let foodAndWine = [
     },
 
     {
-        question: ' What is the most consumed manufactured drink in the world?',
+        question: 'The most consumed manufactured drink in the world?',
         a:'coffee',
         b :'champaigne',
         c: 'tea',
@@ -139,7 +139,7 @@ let foodAndWine = [
 
     },
     {
-        question: ' What is the most expensive spice in the world by weight?',
+        question: ' What is the most expensive spice in the world?',
         a:'chinese 5 spice',
         b :'blackpepper',
         c: 'italian herbs',
