@@ -1,4 +1,4 @@
-# The Food And Wine Taste Master Quiz
+# Food And Wine Taste Master Quiz
 Food and Wine Taste Master class quiz is a Javascript web application aimed at all food enthusiasts who wish to test their knowledge in the culinary world as well participating in the Taste Master World. All questions are based on the food and world cuisines as well as wine. The winners are to get a spot in the upcoming Taste Master World.
 
 ![Header Image](assets/images/Screenshot_120.png)
@@ -192,7 +192,7 @@ All the code production was done using [Gitpod](https://gitpod.io/) and passed i
 
  
   # Deployment
-Food and wine quiz was deployed as follows:
+Food And Wine Taste Master Quiz was deployed as follows:
 * Open the repository on GitHub
 * Go to "Settings" (the tab on the right)
 * On the left hand side select "Pages" 
