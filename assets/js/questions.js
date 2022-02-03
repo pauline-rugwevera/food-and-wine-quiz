@@ -128,15 +128,7 @@ let foodAndWine = [
        answer : 'b'
 
     },
-    {
-        question: 'Which MasterChef presenter was formerly a green grocer?',
-        a:'Don Brooke',
-        b :'Gordon Ramsey',
-        c: 'Gregg Wallace',
-        d: 'John Torode',
-       answer : 'c'
 
-    },
     {
         question: ' What is the most consumed manufactured drink in the world?',
         a:'coffee',
@@ -165,7 +157,7 @@ let foodAndWine = [
 
     },
     {
-        question: ' What is the principal acid in grapes that promotes aging and flavour?',
+        question: ' What is the acid in grapes that promotes aging and flavour?',
         a:'Tartaric acid',
         b :'citric',
         c: 'Sorbic',
@@ -219,7 +211,7 @@ let foodAndWine = [
 
     },
     {
-        question: 'What name is given to the production, study and science of grapes?',
+        question: 'What is the production, study and science of grapes?',
         a:'Oenological',
         b: 'Horticulture',
         c: 'Oenology',
@@ -297,6 +289,30 @@ let foodAndWine = [
         c: 'Basil',
         d: 'Pine nuts',
         answer : 'c'
+    },
+    {
+        question: 'Lectin protein is found in',
+        a: 'wheat',
+        b: 'Rice',
+        c: 'Milk',
+        d: 'sorghum',
+        answer : 'a'
+    },
+    {
+        question: 'Caesar salad originate from',
+        a: 'America',
+        b: 'Canada',
+        c: 'Mexico',
+        d: 'None of the above',
+        answer : 'c'
+    },
+    {
+        question: 'Which of the following is the richest source of vitamin C',
+        a: 'Carrot',
+        b: 'Milk',
+        c: 'Rice',
+        d: 'Cantaloupe',
+        answer : 'd'
     }
 
 ]
