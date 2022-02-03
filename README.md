@@ -3,6 +3,8 @@ Food and Wine Taste Master class quiz is a Javascript web application aimed at a
 
 ![Header Image](assets/images/Screenshot_120.png)
 
+[Link to live website](https://pauline-rugwevera.github.io/food-and-wine-quiz/)
+
 # UX
 ## Site Owner Goals
 - Ensure  users know what to do when they arrive on the site
@@ -176,8 +178,14 @@ Google fonts
  [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpauline-rugwevera.github.io%2Ffood-and-wine-quiz%2F)
 
   
+  # Deployment
+Food And Wine Taste Master Quiz was deployed as follows:
+* Open the repository on GitHub
+* Go to "Settings" (the tab on the right)
+* On the left hand side select "Pages" 
+* Select the "main" branch as the source. Then it shows you a green confirmation "Your site is published at......" with the URL.
 
- # Credits
+# Credits
 ## Content
 The following websites were used for the quiz questions:
 * https://www.mylondon.news/whats-on/food-drink-news/20-food-quiz-questions-answers-18151583
@@ -189,15 +197,13 @@ The following websites were used for the quiz questions:
 ## Code
 All the code production was done using [Gitpod](https://gitpod.io/) and passed in to [HTML validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/) as well as [JSHint](https://jshint.com/) to check for errors. The box shadow code is from [Coding Nepal](https://www.codingnepalweb.com/quiz-app-with-timer-javascript/) that I later adjusted to suit my design of preference. The actual quiz help came from [Web Dev Simplified](https://courses.webdevsimplified.com/) as well as [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw). Icons are from [Font awesome](ontawesome.com). Thanks to [Geek for Geeks](https://www.geeksforgeeks.org/), [W3C Schools](https://www.w3schools.com/) and [Code greeper](codegrepper) for general explanation on CSS and Javascript.
 
+### Acknowledgement
+* My mentor
+* Code Instute Slack community
+
 
 
  
-  # Deployment
-Food And Wine Taste Master Quiz was deployed as follows:
-* Open the repository on GitHub
-* Go to "Settings" (the tab on the right)
-* On the left hand side select "Pages" 
-* Select the "main" branch as the source. Then it shows you a green confirmation "Your site is published at......" with the URL.
 
 
 
