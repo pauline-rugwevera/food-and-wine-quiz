@@ -12,27 +12,28 @@ let choices = Array.from(document.querySelectorAll(".choice-text"));
 let scoreText = document.getElementById('score');
 let questionContainer = document.getElementById('question-container');
 let nextQuestion = document.getElementById('next-question');
+
+
 // Results box
 let boxThree = document.getElementById('box-three');
 let resultsSection = document.getElementById('results-section');
 let yourScore = document.getElementById('your-score');
 let replay = document.getElementById('replay');
-// let quit = document.getElementById('quit');
 let quits = document.querySelectorAll('.quits');
 let message = document.getElementById('message');
 
+// listens click events and hide the start button immediately
 startBtn.addEventListener('click', function () {
     startSection.classList.add('hide');
     boxThree.classList.add('hide');
     rules.classList.remove('hide');
-    // questionContainer.classList.add('hide');
-
+   
     startGame();
 });
+
 // continue button
 nextPage.addEventListener('click', function () {
     questionContainer.classList.remove('hide');
-
     rules.classList.add('hide')
 
 })
@@ -65,7 +66,6 @@ function startGame() {
 function getNewQuestion() {
     questionCount++;
     if (questionsArr.length === 0 || questionCount >= maxQuestions) {
-
         displayResults();
 
     }
@@ -77,14 +77,16 @@ function getNewQuestion() {
     currentQuestion = questionsArr[currentQuestionIndex];
     // displays the question to the html
     questionItem.innerText = currentQuestion.question;
+
+
     //    displays question choices to the html
     choices.forEach(function (choice) {
         const chosen = choice.dataset.option;
         choice.innerText = currentQuestion[chosen];
 
     });
-    // get rid of the already displayed question and accept user answer
 
+    // get rid of the already displayed question and accept user answer
     questionsArr.splice(currentQuestionIndex, 1);
     acceptUserAnswer = true;
     nextQuestion.disabled = true;
@@ -107,6 +109,7 @@ choices.forEach(function (choice) {
         const clickedOption = event.target;
 
         let clickedAnswer = clickedOption.dataset.option;
+        // Next button get activated only after selecting a choice
         if (clickedAnswer) {
             nextQuestion.disabled = false;
         }
@@ -117,8 +120,8 @@ choices.forEach(function (choice) {
             clickedOption.classList.add('correct');
             // checks if the answer is wrong
         } else {
-            // iterate through choices and add correct class
 
+            // iterate through choices and add correct class
             for (let i = 0; i < choices.length; i++) {
                 if (choices[i].dataset.option == currentQuestion.answer) {
                     choices[i].classList.add('correct');
@@ -136,19 +139,23 @@ choices.forEach(function (choice) {
 
 });
 
-// increases score and displays it each time correct answer is picked
+
+/**
+ * function that increases score and displays it each time correct answer is selected
+ */
 function scoreIncrement() {
     score++;
     scoreText.innerText = `Score : ${score}`;
 }
 
 /**
- * Hides the start and question screen at the end of quiz to display quiz score
+ * function that Hides the start, rules and question screen at the end of quiz to 
+ * display quiz score
  */
 function displayResults() {
     startSection.classList.add('hide');
+    rules.classList.remove('hide');
     resultsSection.classList.remove('hide');
-    boxThree.classList.remove('hide');
     questionContainer.classList.add('hide');
 
     if (score < 6) {
@@ -165,11 +172,9 @@ function displayResults() {
 
 }
 
-/**
- * Function that allows quiz replay,by hiding results section and question container as well
- * as reseting the score to 0
+
+//   a listener that allows quiz replay
  
- */
 replay.addEventListener('click', function () {
     startSection.classList.add('hide');
     resultsSection.classList.add('hide');
@@ -185,7 +190,9 @@ nextQuestion.addEventListener('click', function () {
     getNewQuestion();
     disableColor();
 });
-
+/**
+ * function to remove correct and wrong answers after next button is clicked
+ */
 function disableColor() {
 
     for (let i = 0; i < choices.length; i++) {
@@ -197,7 +204,8 @@ function disableColor() {
 
 
 /**
- * Function to quit the quiz, by displaying the main page and hiding results and questions page
+ * Function to quit the quiz, by displaying the main page and hiding results,rules 
+ * and questions page
  * reseting all variables.
  */
 
