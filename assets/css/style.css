@@ -51,11 +51,14 @@ body {
 #first-p {
   padding: 18px;
   text-align: center;
+  font-family: 'Noto Serif', sans-serif;
+  font-size: 22px;
 }
 
 #second-p {
   color: #FFFDD0;
   font-family: 'Noto Serif', sans-serif;
+  font-size: 22px;
   padding: 10px;
 }
 
@@ -93,7 +96,6 @@ h1,
 h2,
 h4 {
   color: #FFFDD0;
-  font-size: 16px;
   font-family: 'Noto Serif', sans-serif
 }
 .box-one{
@@ -463,6 +465,17 @@ h4 {
 
 
 /* question container */
+@media only screen and (max-width:760px) {
+  #score{
+    margin-right: 25px;
+  }
+  #question-count{
+    margin-left: 10px;
+  }
+
+  
+}
+
 @media only screen and (max-width:600px) {
   #box-two {
     width: 85%;
@@ -509,9 +522,8 @@ h4 {
   #box-two {
     width: 90%;
 
-
   }
-
+ 
   #questions {
     font-size: 18px;
     padding: 3px;
@@ -571,7 +583,6 @@ h4 {
 
 @media only screen and (max-width:632px) {
 
-
   #thank-you {
     text-align: center;
   }
@@ -584,11 +595,9 @@ h4 {
     text-align: center;
   }
 
-
 }
 
 @media only screen and (max-width:520px) {
-
   #results-btns {
     display: flex;
     justify-content: space-around;
@@ -608,7 +617,6 @@ h4 {
 }
 
 @media only screen and (max-width:380px) {
-
 
   #welcome-header {
     line-height: 40px;
