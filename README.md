@@ -107,12 +107,12 @@ The score shows the final score the user get which has been incrementing along p
 
 
  If they score 5 out of 10 and below it means they did not qualify
- 
+
  ![not qualify](assets/images/Screenshot_143.png)
 
 If they score 6 out of 10, they earn a place at the TasteMaster World.
 
- ![qualified](assets/images/Screenshot_125.png)
+ ![qualified](assets/images/Screenshot_154.png)
 
 
 
