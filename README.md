@@ -2,6 +2,7 @@
 Food and Wine Taste Master class quiz is a Javascript web application aimed at all food enthusiasts who wish to test their knowledge in the culinary world as well participating in the Taste Master World. All questions are based on the food and world cuisines as well as wine. The winners are to get a spot in the upcoming Taste Master World.
 
 ![Header Image](assets/images/Screenshot_120.png)
+
 # UX
 ## Site Owner Goals
 - Ensure  users know what to do when they arrive on the site
@@ -94,19 +95,19 @@ If wrong answer is selected, a red color flashes on the user selected choice, im
 
 ![wrong](assets/images/Screenshot_142.png)
 
-
 # Results page
 This is the last section of the quiz that is shown to the user once they complete the quiz. It shows four main things, 
 * The score
 * The feedback information
 * The Replay button
 * The Quit button
-![results page](assets/images/Screenshot_125.png)
+![results page](assets/images/Screenshot_153.png)
 
 The score shows the final score the user get which has been incrementing along per each correct answer they chose. The feedback text shows the user if they had qualified to the TasteMaster World based on their final score. 
 
 
  If they score 5 out of 10 and below it means they did not qualify
+ 
  ![not qualify](assets/images/Screenshot_143.png)
 
 If they score 6 out of 10, they earn a place at the TasteMaster World.
