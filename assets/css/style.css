@@ -18,7 +18,8 @@ body {
 
 }
 
-#start, #rules {
+#start,
+#rules {
   background-color: #22577A;
   width: 100vw;
   overflow: hidden;
@@ -67,6 +68,7 @@ body {
   margin-bottom: 30px;
 
 }
+
 .btn {
   background-color: #57CC99;
   width: 300px;
@@ -98,35 +100,36 @@ h4 {
   color: #FFFDD0;
   font-family: 'Noto Serif', sans-serif
 }
-.box-one{
+
+.box-one {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 60%;
- 
   box-shadow: 1px 5px 5px 1px #57CC99;
   transform: translate(-50%, -50%);
-  
+
 }
 
-#rules-header{
+#rules-header {
   color: #FFFDD0;
   font-size: 18px;
   font-family: 'Monoton', sans-serif;
   text-align: center;
-   padding-top: 10px; 
-  padding-bottom: 10px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
   letter-spacing: 4px;
   text-transform: uppercase;
 
 }
-#rules-list{
+
+#rules-list {
   font-family: 'Noto Serif', sans-serif;
   font-size: 20px;
   text-align: center;
 }
 
-.rule{
+.rule {
   padding: 2px;
   margin-left: 5px;
   font-family: 'Noto Serif', sans-serif;
@@ -144,14 +147,13 @@ h4 {
 
 }
 
-.box{
+.box {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 70%;
   box-shadow: 1px 5px 5px 1px #57CC99;
   transform: translate(-50%, -50%);
-  
 
 }
 
@@ -183,16 +185,14 @@ h4 {
   padding-bottom: 10px;
   letter-spacing: 4px;
   text-transform: uppercase;
- 
 
 }
+
 #question-count {
   color: #FFFDD0;
   font-size: 22px;
   font-family: 'Noto Serif', sans-serif;
   margin-left: 40px;
-  
-
   float: left;
   text-align: left;
 
@@ -228,7 +228,6 @@ h4 {
   height: 100%;
   font-size: 20px;
   font-family: 'Noto Serif', sans-serif;
-  
 
 }
 
@@ -243,14 +242,16 @@ h4 {
 }
 
 
-
-#quit-rules, #quit-quiz{
+#quit-rules,
+#quit-quiz {
   margin-left: 40px;
   float: left;
   text-align: left;
 
 }
-#next-page, #next-question{
+
+#next-page,
+#next-question {
   float: right;
   text-align: right;
   margin-right: 40px;
@@ -315,9 +316,7 @@ h4 {
 
 }
 
-
-
-.btns{
+.btns {
   border: 1px solid #57CC99;
   background-color: #57CC99;
   text-transform: uppercase;
@@ -340,7 +339,9 @@ h4 {
   font-family: 'Noto Serif', sans-serif;
 
 }
-#thank-you, #your-score{
+
+#thank-you,
+#your-score {
   font-size: 20px;
   font-family: 'Noto Serif', sans-serif;
 
@@ -352,8 +353,8 @@ h4 {
 
 
 /* media queries */
+/* start section */
 @media only screen and (max-width:530px) {
-
   #welcome-header {
     padding: 4px;
   }
@@ -388,11 +389,9 @@ h4 {
   .btn {
     width: 200px;
 
-
   }
 
   .box {
-
     width: 85%;
   }
 
@@ -402,35 +401,41 @@ h4 {
 
   #second-p {
     padding: 6px;
-
   }
 
 }
+
 /* rules screen */
 @media only screen and (max-width:1100px) {
   .box-one {
     width: 85%;
-    
+
   }
 }
+
 @media only screen and (max-width:464px) {
-  #quit-rules{
+  #quit-rules {
     margin-left: 15px;
     padding: 0 11px;
   }
-  #next-page{
+
+  #next-page {
     padding: 0 11px;
     margin-right: 14px;
   }
 }
+
+
 @media only screen and (max-width:368px) {
   .box-one {
     width: 90%;
-  
+
   }
-  #quit-rules{
+
+  #quit-rules {
     margin-left: 7px;
   }
+
 }
 
 @media only screen and (max-width:326px) {
@@ -438,42 +443,41 @@ h4 {
     width: 90%;
     height: fit-content;
   }
-  #next-page{
+
+  #next-page {
     padding: 0 5px;
     margin-right: 10px;
   }
-  #rules-header{
+
+  #rules-header {
     padding: 3px;
-   
+
   }
- .rule{
-   padding: 3px;
-   margin: 0;
-   font-size: 16px;
-  
- 
- }
- #rules-list{
-   font-size: 19px;
- }
- 
+
+  .rule {
+    padding: 3px;
+    margin: 0;
+    font-size: 16px;
+
+  }
+
+  #rules-list {
+    font-size: 19px;
+  }
+
 }
 
-
-
-
-
-
 /* question container */
+
 @media only screen and (max-width:760px) {
-  #score{
+  #score {
     margin-right: 25px;
   }
-  #question-count{
+
+  #question-count {
     margin-left: 10px;
   }
 
-  
 }
 
 @media only screen and (max-width:600px) {
@@ -506,24 +510,27 @@ h4 {
 }
 
 @media only screen and (max-width:372px) {
-  #box-two{
+  #box-two {
     width: 90%;
   }
- #quit-quiz{
-   margin-left: 15px;
- }
 
+  #quit-quiz {
+    margin-left: 15px;
   }
-  #next-question{
+
+  #next-question {
     margin-right: 18px;
   }
+
+}
+
 
 @media only screen and (max-width:338px) {
   #box-two {
     width: 90%;
 
   }
- 
+
   #questions {
     font-size: 18px;
     padding: 3px;
@@ -547,7 +554,6 @@ h4 {
 
 /* results box */
 @media only screen and (max-width:632px) {
-
   #thank-you {
     text-align: center;
   }
@@ -577,12 +583,9 @@ h4 {
     text-align: center;
   }
 
-
 }
 
-
 @media only screen and (max-width:632px) {
-
   #thank-you {
     text-align: center;
   }
@@ -625,6 +628,5 @@ h4 {
   #thank-you {
     padding-top: 18px;
   }
-
 
 }
