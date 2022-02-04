@@ -193,6 +193,7 @@ The following websites were used for the quiz questions:
 * https://www.bbcgoodfood.com/howto/guide/food-quiz
 * http://www.freepubquiz.co.uk/wine-quiz.html
 * https://pubquizquestionshq.com/quiz/food-and-drink-quiz-round-21
+* https://www.daytodaygk.com/gk-quiz-on-food-with-answers/
 
 ## Code
 All the code production was done using [Gitpod](https://gitpod.io/) and passed in to [HTML validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/) as well as [JSHint](https://jshint.com/) to check for errors. The box shadow code is from [Coding Nepal](https://www.codingnepalweb.com/quiz-app-with-timer-javascript/) that I later adjusted to suit my design of preference. The actual quiz help came from [Web Dev Simplified](https://courses.webdevsimplified.com/) as well as [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw). Icons are from [Font awesome](ontawesome.com). Thanks to [Geek for Geeks](https://www.geeksforgeeks.org/), [W3C Schools](https://www.w3schools.com/) and [Code greeper](codegrepper) for general explanation on CSS and Javascript.
