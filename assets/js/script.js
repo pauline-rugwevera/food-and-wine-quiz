@@ -1,9 +1,10 @@
 // landing page screen 
 let startBtn = document.getElementById('start-btn');
 let startSection = document.getElementById('start');
-let rules = document.getElementById('rules');
+
 // rules page
-let nextPage = document.getElementById('next-page')
+let nextPage = document.getElementById('next-page');
+let rules = document.getElementById('rules');
 
 // Questions screen
 let questionCountText = document.getElementById('question-count');
@@ -15,7 +16,7 @@ let nextQuestion = document.getElementById('next-question');
 
 
 // Results box
-let boxThree = document.getElementById('box-three');
+
 let resultsSection = document.getElementById('results-section');
 let yourScore = document.getElementById('your-score');
 let replay = document.getElementById('replay');
@@ -25,7 +26,9 @@ let message = document.getElementById('message');
 // listens click events and hide the start button immediately
 startBtn.addEventListener('click', function () {
     startSection.classList.add('hide');
-    boxThree.classList.add('hide');
+    // boxThree.classList.add('hide');
+    resultsSection.classList.add('hide');
+
     rules.classList.remove('hide');
    
     startGame();
@@ -34,9 +37,9 @@ startBtn.addEventListener('click', function () {
 // continue button
 nextPage.addEventListener('click', function () {
     questionContainer.classList.remove('hide');
-    rules.classList.add('hide')
+    rules.classList.add('hide');
 
-})
+});
 
 // quiz variables
 
@@ -47,6 +50,7 @@ let questionCount = 0;
 let questionsArr = [];
 let currentQuestion = {};
 const maxQuestions = 10;
+
 
 /**
  * A function that initialise variables,and get new questions from the getNewQuestion function
@@ -78,7 +82,6 @@ function getNewQuestion() {
     // displays the question to the html
     questionItem.innerText = currentQuestion.question;
 
-
     //    displays question choices to the html
     choices.forEach(function (choice) {
         const chosen = choice.dataset.option;
@@ -89,6 +92,7 @@ function getNewQuestion() {
     // get rid of the already displayed question and accept user answer
     questionsArr.splice(currentQuestionIndex, 1);
     acceptUserAnswer = true;
+    // disable next button
     nextQuestion.disabled = true;
 
 }
@@ -154,7 +158,7 @@ function scoreIncrement() {
  */
 function displayResults() {
     startSection.classList.add('hide');
-    rules.classList.remove('hide');
+    rules.classList.add('hide');
     resultsSection.classList.remove('hide');
     questionContainer.classList.add('hide');
 
@@ -191,12 +195,11 @@ nextQuestion.addEventListener('click', function () {
     disableColor();
 });
 /**
- * function to remove correct and wrong answers after next button is clicked
+ * function to remove correct and wrong class after next button is clicked
  */
 function disableColor() {
 
     for (let i = 0; i < choices.length; i++) {
-        userAnswer =
             choices[i].classList.remove("correct");
         choices[i].classList.remove("wrong");
     }
@@ -224,4 +227,4 @@ quits.forEach(function (quit) {
         startGame();
 
     });
-})
+});
