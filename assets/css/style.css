@@ -259,7 +259,7 @@ h4 {
 
 }
 
-/* correct and wrong answer change in color */
+/* correct and wrong answer class */
 .choice-text.correct {
   --hue: var(--hue-correct);
 
@@ -276,7 +276,7 @@ h4 {
 
 }
 
-/* correct and wrong answer change in color end */
+
 
 #results-section {
   border-radius: 5px;
@@ -350,6 +350,14 @@ h4 {
 
 .hide {
   display: none;
+}
+
+#error-header{
+  font-size: 30px;
+  font-family: 'Noto Serif', sans-serif;
+  color: #FFFDD0;
+  text-align: center;
+
 }
 
 
