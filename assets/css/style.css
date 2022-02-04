@@ -19,7 +19,8 @@ body {
 }
 
 #start,
-#rules {
+#rules,
+#error-page {
   background-color: #22577A;
   width: 100vw;
   overflow: hidden;
