@@ -111,15 +111,6 @@ let foodAndWine = [
     },
     
     {
-        question: 'When did the first Masterchef episode appear on TV',
-        a:'1989',
-        b :'2000',
-        c: '1996',
-        d: '1990',
-       answer : 'd'
-
-    },
-    {
         question: 'How much does an egg weigh?',
         a:'20g',
         b :'55g',
@@ -129,15 +120,6 @@ let foodAndWine = [
 
     },
 
-    {
-        question: 'What is the most consumed manufactured drink in the world?',
-        a:'coffee',
-        b :'champaigne',
-        c: 'tea',
-        d: 'water',
-       answer : 'c'
-
-    },
     {
         question: ' What is the most expensive spice in the world?',
         a:'chinese 5 spice',
