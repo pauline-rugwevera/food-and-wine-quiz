@@ -547,12 +547,18 @@ h4 {
   }
 
   .answer-container {
-    height: 62px;
+    height: 59px;
   }
 
-  .hr {
-    margin-top: 11px;
-    margin-bottom: 8px;
+  .choice-text{
+    padding: 4px;
+  }
+  .choice{
+    padding: 12px 15px;
+  }
+  #quit-quiz,#next-question{
+    margin-bottom: 6px;
+    height: 37px;
   }
 
   #question-count {

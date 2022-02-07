@@ -130,7 +130,7 @@ let foodAndWine = [
     },
 
     {
-        question: 'The most consumed manufactured drink in the world?',
+        question: 'What is the most consumed manufactured drink in the world?',
         a:'coffee',
         b :'champaigne',
         c: 'tea',
