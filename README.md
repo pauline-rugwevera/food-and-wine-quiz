@@ -162,6 +162,8 @@ Google fonts
 
  After fixing the layout testing putting all the buttons in place and functionality, I realised a user can easily skip questions without answering them by clicking the next button. This took me a whole lot of hours trying to fix yet it was only one line of code needed. Solved this using the button disabled property from [W3C Schools](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp)
 
+ Upon further testing, I also realized the question were displaying in between the question count and the score instead of occupying a whole space. Also the maximum questions produced were 9 instead of the intended 10. To fix this, I had to add some margin to the questions so they could be displayed properly, only one line of code was needed to be adjusted. In the get new question function, I noticed that inside the if statement I had put the greater than or equal to the number of maximum questions which caused only 9 questions to be generated. I simply removed the equal sign to fix this.
+
  
 
  ## Functionality and compatibilty testing

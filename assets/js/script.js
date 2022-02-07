@@ -69,7 +69,7 @@ function startGame() {
  */
 function getNewQuestion() {
     questionCount++;
-    if (questionsArr.length === 0 || questionCount >= maxQuestions) {
+    if (questionsArr.length === 0 || questionCount > maxQuestions) {
         displayResults();
 
     }
