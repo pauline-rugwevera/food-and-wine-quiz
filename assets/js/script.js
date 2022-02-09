@@ -26,11 +26,11 @@ let message = document.getElementById('message');
 // listens click events and hide the start button immediately
 startBtn.addEventListener('click', function () {
     startSection.classList.add('hide');
-    // boxThree.classList.add('hide');
+
     resultsSection.classList.add('hide');
 
     rules.classList.remove('hide');
-   
+
     startGame();
 });
 
@@ -101,7 +101,7 @@ function getNewQuestion() {
 /**
  * Checks if the answer is correct and add correct class to it,and increment score for
  * every correct choice. Add wrong class for every wrong choice then add correct class 
- * to the correct answer, a small delay happens before new question is displayed
+ * to the correct answer.
  */
 
 choices.forEach(function (choice) {
@@ -178,7 +178,7 @@ function displayResults() {
 
 
 //   a listener that allows quiz replay
- 
+
 replay.addEventListener('click', function () {
     startSection.classList.add('hide');
     resultsSection.classList.add('hide');
@@ -201,7 +201,7 @@ nextQuestion.addEventListener('click', function () {
 function disableColor() {
 
     for (let i = 0; i < choices.length; i++) {
-            choices[i].classList.remove("correct");
+        choices[i].classList.remove("correct");
         choices[i].classList.remove("wrong");
     }
 }
@@ -212,7 +212,6 @@ function disableColor() {
  * and questions page
  * reseting all variables.
  */
-
 
 quits.forEach(function (quit) {
     quit.addEventListener('click', function () {
