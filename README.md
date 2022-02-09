@@ -164,6 +164,8 @@ Google fonts
 
  Upon further testing, I also realized the question were displaying in between the question count and the score instead of occupying a whole space. Also the maximum questions produced were 9 instead of the intended 10. To fix this, I had to add some margin to the questions so they could be displayed properly, only one line of code was needed to be adjusted. In the get new question function, I noticed that inside the if statement I had put the greater than or equal to the number of maximum questions which caused only 9 questions to be generated. I simply removed the equal sign to fix this.
 
+ Something I later realised when I thought the quiz was done was when a user selects the answer then decides to quit the quiz. The correct or wrong class applied there was carried on to the next time a user decides again to play the game. Fixing this,I had to call the function responsible for disabling these classes everytime the quit button is clicked.
+
  
 
  ## Functionality and compatibilty testing
