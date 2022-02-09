@@ -71,7 +71,7 @@ I used [Balsamiq](https://balsamiq.com/) to give my site a design I wanted. I fi
 * The landing page
 
 This is the first page users see when they visit the site. There is a clear start button which they will click and takes them to the next section of the quiz. The landing page contents are positioned in the middle of the page and responsive to all devices.
-![Landing page](assets/images/Screenshot_121.png)
+![Landing page](assets/images/Screenshot_72.png)
 
 * The rules screen
 
@@ -79,7 +79,7 @@ This is the second page users will after the start button is selected. It contai
 
 There is a quit button on the left of this page and a continue button on the right. The quit button allows the user to easily leave the quiz back to the landing page, the continue button allows the user to be presented with the quiz screen where they can begin taking the quiz.
 
-![rules section](assets/images/Screenshot_147.png) 
+![rules section](assets/images/Screenshot_71.png) 
 
 * Quiz Screen
 
@@ -87,15 +87,15 @@ This is the main game area where all quiz questions and answers are displayed. I
 
  If the user wishes to quit they can easily do so however their score will not be saved. Also users have to select their desired answer first before the next button can be activated. In doing so they have to know that once they select an answer they cannot deselect it.
 
-![quiz screen](assets/images/Screenshot_145.png)
+![quiz screen](assets/images/Screenshot_73.png)
 
 The questions are populated from a local array, easily readable with good color contrast. The answers are presented as A,B,C,D. A user have to select only one choice from the given four choices. If the correct answer is selected, a green color pops in. They can click the next button to be presented with a new question.
 
-![correct ](assets/images/Screenshot_141.png)
+![correct ](assets/images/Screenshot_76.png)
 
 If wrong answer is selected, a red color flashes on the user selected choice, immediately green color flashes on the correct one.They can click the next button to be presented with a new question.
 
-![wrong](assets/images/Screenshot_142.png)
+![wrong](assets/images/Screenshot_75.png)
 
 # Results page
 This is the last section of the quiz that is shown to the user once they complete the quiz. It shows four main things, 
@@ -103,18 +103,18 @@ This is the last section of the quiz that is shown to the user once they complet
 * The feedback information
 * The Replay button
 * The Quit button
-![results page](assets/images/Screenshot_153.png)
+![results page](assets/images/Screenshot_77.png)
 
 The score shows the final score the user get which has been incrementing along per each correct answer they chose. The feedback text shows the user if they had qualified to the TasteMaster World based on their final score. 
 
 
  If they score 5 out of 10 and below it means they did not qualify
 
- ![not qualify](assets/images/Screenshot_143.png)
+ ![not qualify](assets/images/Screenshot_78.png)
 
 If they score 6 out of 10, they earn a place at the TasteMaster World.
 
- ![qualified](assets/images/Screenshot_154.png)
+ ![qualified](assets/images/Screenshot_79.png)
 
 
 
