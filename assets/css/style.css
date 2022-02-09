@@ -342,6 +342,9 @@ h4 {
   font-family: 'Noto Serif', sans-serif;
 
 }
+#quit{
+  padding: 0 39px;
+}
 
 .hide {
   display: none;
