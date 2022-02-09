@@ -48,7 +48,7 @@ I created the quiz color scheme using [ColorHunt](https://colorhunt.co/palette/2
 There are two fonts used in this project. Firstly on the landing page  I wanted something eye catching as well as covering quite a space since this project does not have many categories, so I went on to use [Monoton](https://fonts.google.com/specimen/Monoton) for my main heading. For the questions, answers and every other information, I chose [Noto Serif](https://fonts.google.com/noto/specimen/Noto+Serif) as it is more readable for the users.
 
 ## Icons
-I used the icons from [Font Awesome](https://fontawesome.com/) that are on the start button to further tell the users the type of the quiz they are about to play.
+I used the icons from [Font Awesome](https://fontawesome.com/) that are on the start button to further tell the users the type of the quiz they are about to play and the trophy on the results page
 ## Wireframes
 I used [Balsamiq](https://balsamiq.com/) to give my site a design I wanted. I first drew a sketch using pen and paper before designing moving on to balsamiq so that I could see hpw it appears on web. I knew that I needed my site to be on one html page divided into sections easy to work with and how they should link together. The wireframes follows:
 * Landing Page
@@ -124,7 +124,7 @@ The Quit button is another way users will interact with this site. This page all
 
 
 ## Future Features
-* In the future I would l like to have category of questions so that users can choose what level they would want to play
+* In the future I would l like to have category of questions so that users can choose what level and category they would want to play
 * I would like a feature to allow users to share their results with their loved ones on social media
 
 # Technologies
@@ -158,13 +158,13 @@ Google fonts
  After completing the site layout and styling, I needed to test out the color contrast and I used [WebAmi](https://webaim.org/resources/contrastchecker/). Two of my colors green and cream were failing. It was not in any intention to change everything completely so had to add an extra color for a good contrast. 
 
  ## Javascript
- The first problem I encountered Javascript that took me hours to get through was displaying answers or choice corresponding to each question. All that was displaying was undefined. This however was solved using dataset attribute, that I attributed to all answers/choice text in html then created a function that displays in html, a concept I learned from [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw).
+ The first problem I encountered with Javascript that took me hours to get through was displaying answers or choice corresponding to each question. All that was displaying was undefined. This however was solved using dataset attribute, that I attributed to all answers/choice text in html then created a function that displays them in html, a concept I learned from [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw).
 
  After fixing the layout testing putting all the buttons in place and functionality, I realised a user can easily skip questions without answering them by clicking the next button. This took me a whole lot of hours trying to fix yet it was only one line of code needed. Solved this using the button disabled property from [W3C Schools](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp)
 
- Upon further testing, I also realized the question were displaying in between the question count and the score instead of occupying a whole space. Also the maximum questions produced were 9 instead of the intended 10. To fix this, I had to add some margin to the questions so they could be displayed properly, only one line of code was needed to be adjusted. In the get new question function, I noticed that inside the if statement I had put the greater than or equal to the number of maximum questions which caused only 9 questions to be generated. I simply removed the equal sign to fix this.
+ Upon further testing, I also realized the questions were displaying in between the question count and the score instead of occupying a whole space. Also the maximum questions produced were 9 instead of the intended 10. To fix this, I had to add some margin to the questions so they could be displayed properly, only one line of code was needed to be adjusted. In the get new question function, I noticed that inside the if statement I had put the greater than or equal to the number of maximum questions which caused only 9 questions to be generated. I simply removed the equal sign to fix this respectively.
 
- Something I later realised when I thought the quiz was done was when a user selects the answer then decides to quit the quiz. The correct or wrong class applied there was carried on to the next time a user decides again to play the game. Fixing this,I had to call the function responsible for disabling these classes everytime the quit button is clicked.
+ Something I later realised when I thought the quiz was done was when a user selects the answer then decides to quit the quiz. The correct or wrong class applied there was carried on to the next time or round a user decides again to play the game. Fixing this,I had to call the function responsible for disabling these classes everytime the quit button is clicked.
 
  
 
