@@ -110,7 +110,7 @@ choices.forEach(function (choice) {
         // prevents player from answering a question
         acceptUserAnswer = false;
 
-        const clickedOption = event.target;
+        let clickedOption = event.target;
 
         let clickedAnswer = clickedOption.dataset.option;
         // Next button get activated only after selecting a choice
@@ -194,8 +194,9 @@ nextQuestion.addEventListener('click', function () {
     getNewQuestion();
     disableColor();
 });
+
 /**
- * function to remove correct and wrong class after next button is clicked
+ * function to remove correct and wrong class 
  */
 function disableColor() {
 
@@ -214,15 +215,14 @@ function disableColor() {
 
 
 quits.forEach(function (quit) {
-    quit.addEventListener('click', function (e) {
+    quit.addEventListener('click', function () {
         startSection.classList.remove('hide');
-
         resultsSection.classList.add('hide');
-
         questionContainer.classList.add('hide');
         rules.classList.add('hide');
-
         scoreText.innerText = `Score : ${0}`;
+
+        disableColor();
 
         startGame();
 
