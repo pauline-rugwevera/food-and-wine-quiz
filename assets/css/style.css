@@ -264,7 +264,7 @@ h4 {
   margin-right: 40px;
 
 }
-
+/* code snippet from Web dev simplified */
 /* correct and wrong answer class */
 .choice-text.correct {
   --hue: var(--hue-correct);

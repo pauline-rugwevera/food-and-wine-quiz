@@ -23,7 +23,7 @@ let replay = document.getElementById('replay');
 let quits = document.querySelectorAll('.quits');
 let message = document.getElementById('message');
 
-// listens click events and hide the start button immediately
+// listens for start btn click events and hide it button immediately
 startBtn.addEventListener('click', function () {
     startSection.classList.add('hide');
 
@@ -34,7 +34,7 @@ startBtn.addEventListener('click', function () {
     startGame();
 });
 
-// continue button
+// listener for the continue button
 nextPage.addEventListener('click', function () {
     questionContainer.classList.remove('hide');
     rules.classList.add('hide');
@@ -169,7 +169,6 @@ function displayResults() {
 
     } else {
         yourScore.innerText = `You scored:  ${score} / ${maxQuestions}`;
-
         message.innerText = `Congratulations! You have earned your spot at the Taste Master World`;
 
     }
