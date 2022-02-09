@@ -173,13 +173,7 @@ Google fonts
  ## Perfomance testing
  I ran lighthouse in dev tools to check the perfomance of the site, the results follows:
  ![lighthouse](assets/images/Screenshot_136.png)
- ## Code validator
- I validated the markup and css using:
 
- [W3C Validator](https://validator.w3.org/). [Click to see results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpauline-rugwevera.github.io%2Ffood-and-wine-quiz%2F)
-
-
- [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). [Click to see results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpauline-rugwevera.github.io%2Ffood-and-wine-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
   
   # Deployment
 Food And Wine Taste Master Quiz was deployed as follows:
